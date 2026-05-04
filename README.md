@@ -120,7 +120,7 @@ The applink shape is `https://cybertrackerwiki.org/applink/?x=<payload>`,
 where `<payload>` is the base64 encoding of a small JSON object:
 
 ```json
-{ "mapPackageUrl": "https://ctwiki.blob.core.windows.net/bin/LegalAtlasMongoliaTest.zip" }
+{ "webUpdateUrl": "https://ctwiki.blob.core.windows.net/bin/LegalAtlasMongoliaTest.zip" }
 ```
 
 To build one:
@@ -128,13 +128,13 @@ To build one:
 ```bash
 python3 -c '
 import base64, json
-payload = {"mapPackageUrl": "https://ctwiki.blob.core.windows.net/bin/LegalAtlasMongoliaTest.zip"}
+payload = {"webUpdateUrl": "https://ctwiki.blob.core.windows.net/bin/LegalAtlasMongoliaTest.zip"}
 print("https://cybertrackerwiki.org/applink/?x=" + base64.b64encode(json.dumps(payload).encode()).decode())
 '
 ```
 
 The CyberTracker app intercepts `cybertrackerwiki.org/applink/` URLs, decodes
-the `x` parameter, fetches `mapPackageUrl`, and installs the package. Anything
+the `x` parameter, fetches `webUpdateUrl`, and installs the package. Anything
 that hands a user a clickable URL works (chat, email, QR codes, NFC).
 
 To package a demo locally, run [demos/build.py](demos/build.py); it zips
