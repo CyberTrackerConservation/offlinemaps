@@ -1,0 +1,177 @@
+{
+  "content": {
+    "id": "Seasons",
+    "language": "en",
+    "defaultLocale": "en-US"
+  },
+  "datasets": [
+    {
+      "id": "northern-spring",
+      "filter": {
+        "featureIds": ["1"],
+        "when": { "start": "2026-03-01T00:00:00Z", "end": "2026-05-31T23:59:59Z" }
+      },
+      "rows": [
+        {
+          "path": ["Northern Hemisphere"],
+          "view": {
+            "name": "Spring",
+            "title": "Spring in the Northern Hemisphere",
+            "subtitle": "March – May",
+            "blocks": [
+              { "type": "body", "label": "Description", "format": "text",
+                "value": "Days lengthen, temperatures rise, plants leaf out and migratory birds return north." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "northern-summer",
+      "filter": {
+        "featureIds": ["1"],
+        "when": { "start": "2026-06-01T00:00:00Z", "end": "2026-08-31T23:59:59Z" }
+      },
+      "rows": [
+        {
+          "path": ["Northern Hemisphere"],
+          "view": {
+            "name": "Summer",
+            "title": "Summer in the Northern Hemisphere",
+            "subtitle": "June – August",
+            "blocks": [
+              { "type": "body", "label": "Description", "format": "text",
+                "value": "Longest days of the year. Warm weather peaks; June solstice marks the start of astronomical summer." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "northern-autumn",
+      "filter": {
+        "featureIds": ["1"],
+        "when": { "start": "2026-09-01T00:00:00Z", "end": "2026-11-30T23:59:59Z" }
+      },
+      "rows": [
+        {
+          "path": ["Northern Hemisphere"],
+          "view": {
+            "name": "Autumn",
+            "title": "Autumn in the Northern Hemisphere",
+            "subtitle": "September – November",
+            "blocks": [
+              { "type": "body", "label": "Description", "format": "text",
+                "value": "Days shorten, temperatures cool, deciduous trees shed leaves and harvests come in." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "northern-winter",
+      "filter": {
+        "featureIds": ["1"],
+        "when": { "start": "2026-12-01T00:00:00Z", "end": "2027-02-28T23:59:59Z" }
+      },
+      "rows": [
+        {
+          "path": ["Northern Hemisphere"],
+          "view": {
+            "name": "Winter",
+            "title": "Winter in the Northern Hemisphere",
+            "subtitle": "December – February",
+            "blocks": [
+              { "type": "body", "label": "Description", "format": "text",
+                "value": "Coldest months. Shortest days around the December solstice; snow at higher latitudes." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "southern-autumn",
+      "filter": {
+        "featureIds": ["2"],
+        "when": { "start": "2026-03-01T00:00:00Z", "end": "2026-05-31T23:59:59Z" }
+      },
+      "rows": [
+        {
+          "path": ["Southern Hemisphere"],
+          "view": {
+            "name": "Autumn",
+            "title": "Autumn in the Southern Hemisphere",
+            "subtitle": "March – May",
+            "blocks": [
+              { "type": "body", "label": "Description", "format": "text",
+                "value": "Cooling temperatures and shortening days as the southern half tilts away from the sun." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "southern-winter",
+      "filter": {
+        "featureIds": ["2"],
+        "when": { "start": "2026-06-01T00:00:00Z", "end": "2026-08-31T23:59:59Z" }
+      },
+      "rows": [
+        {
+          "path": ["Southern Hemisphere"],
+          "view": {
+            "name": "Winter",
+            "title": "Winter in the Southern Hemisphere",
+            "subtitle": "June – August",
+            "blocks": [
+              { "type": "body", "label": "Description", "format": "text",
+                "value": "Coldest months south of the equator; June solstice is the shortest day." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "southern-spring",
+      "filter": {
+        "featureIds": ["2"],
+        "when": { "start": "2026-09-01T00:00:00Z", "end": "2026-11-30T23:59:59Z" }
+      },
+      "rows": [
+        {
+          "path": ["Southern Hemisphere"],
+          "view": {
+            "name": "Spring",
+            "title": "Spring in the Southern Hemisphere",
+            "subtitle": "September – November",
+            "blocks": [
+              { "type": "body", "label": "Description", "format": "text",
+                "value": "Days lengthen and temperatures rise as the southern half tilts back toward the sun." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "southern-summer",
+      "filter": {
+        "featureIds": ["2"],
+        "when": { "start": "2026-12-01T00:00:00Z", "end": "2027-02-28T23:59:59Z" }
+      },
+      "rows": [
+        {
+          "path": ["Southern Hemisphere"],
+          "view": {
+            "name": "Summer",
+            "title": "Summer in the Southern Hemisphere",
+            "subtitle": "December – February",
+            "blocks": [
+              { "type": "body", "label": "Description", "format": "text",
+                "value": "Longest days south of the equator; December solstice marks the start of astronomical summer." }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

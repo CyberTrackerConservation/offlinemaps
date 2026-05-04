@@ -1,0 +1,253 @@
+{
+  "content": {
+    "id": "converted-content-package",
+    "language": "en",
+    "defaultLocale": "en-US"
+  },
+  "datasets": [
+    {
+      "id": "legal-mongolia-ugid-58",
+      "filter": {
+        "featureIds": [
+          "*"
+        ]
+      },
+      "rows": [
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Authorizing Statute",
+            "Protected Areas"
+          ],
+          "view": {
+            "name": "Establishes SPA 'Limited' Zone (SPA Law, Art. 8(3))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>Strictly Protected Areas shall&nbsp;be divided in respect of their natural forms, state, features of soil, water, fauna, flora, and their vulnerability to human activities into the following zones:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">3) limited zone</p>"
+              }
+            ],
+            "subtitle": "Article 8. Strictly Protected Area Zones"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Permitted Activities",
+            "Cultural Activities"
+          ],
+          "view": {
+            "name": "Worship and traditional ceremonies (SPA Law, Art. 11(9))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In limited zone the following activities may be conducted by unharmful form to the nature and with relevant permission:</p>[...]<br><p style=\"margin-left: 40px;\">9) worship of mountains and hills, holding other traditional and customary ceremonies;</p>"
+              }
+            ],
+            "subtitle": "Article 11. Regime of limited zone"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Permitted Activities",
+            "Land Use"
+          ],
+          "view": {
+            "name": "Use of land pursuant to agreement (SPA Art. 33(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Land can be used by citizens, business entities, and organizations of Mongolia in limited zones of strictly protected areas and national parks, nature reserves, and monuments for certain purposes for certain periods under certain conditions on the basis of agreement in manners that are not harmful to the environment.</p>"
+              }
+            ],
+            "subtitle": "Article 33. Land Utilization in Special Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Permitted Activities",
+            "Protection Measures"
+          ],
+          "view": {
+            "name": "Protection measures to preserve original state of nature (SPA Law, Art. 11(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In limited zone the following activities may be conducted by unharmful form to the nature and with relevant permission:</p>[...]<br><p style=\"margin-left: 40px;\">1) activities stipulated in the Articles 9 and 10 of the present law;</p>"
+              }
+            ],
+            "subtitle": "Article 11. Regime of limited zone"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Permitted Activities",
+            "Protection Measures"
+          ],
+          "view": {
+            "name": "Restoration of soil and plant cover (SPA Law, Art. 11(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In limited zone the following activities may be conducted by unharmful form to the nature and with relevant permission:</p>[...]<br><p style=\"margin-left: 40px;\">2) restoration of soil and plant cover;</p>"
+              }
+            ],
+            "subtitle": "Article 11. Regime of limited zone"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Permitted Activities",
+            "Protection Measures"
+          ],
+          "view": {
+            "name": "Controlling wildlife populations (SPA Law, Art. 11(4))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In limited zone the following activities may be conducted by unharmful form to the nature and with relevant permission:</p>[...]<br><p style=\"margin-left: 40px;\">4) activities regulating the census of animals, their number, age, gender and herd composition according to approved schedule and methodology;</p>"
+              }
+            ],
+            "subtitle": "Article 11. Regime of limited zone"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Permitted Activities",
+            "Secondary Natural Resources"
+          ],
+          "view": {
+            "name": "Harvest and use of secondary natural resources (SPA Law, Art. 11(10))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In the limited zone, the following activities may be conducted in a non-harmful form to nature and with relevant permission:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">10) picking up and using by local residents natural secondary resources, medicinal or food plants, under relevant procedures for domestic needs.</p>"
+              }
+            ],
+            "subtitle": "Article 11. Limited Zone Regime"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Permitted Activities",
+            "Tourism"
+          ],
+          "view": {
+            "name": "Nature tours and tourism (SPA Law, Art. 11(16))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In limited zone the following activities may be conducted by unharmful form to the nature and with relevant permission:</p>[...]<br><p style=\"margin-left: 40px;\">6) organization of natural tour and tourism under specific itinerary and directions set according to the established procedures;</p>"
+              }
+            ],
+            "subtitle": "Article 11. Regime of limited zone"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Permitted Activities",
+            "Tourism"
+          ],
+          "view": {
+            "name": "Temporary use of tourist facilities (SPA Law, Art. 11(7))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In limited zone the following activities may be conducted by unharmful form to the nature and with relevant permission:</p>[...]<br><p style=\"margin-left: 40px;\">7) exploitation of any established accommodation dwellings designed to tourists or other permitted persons for temporary stay, observation or studies;</p>"
+              }
+            ],
+            "subtitle": "Article 11. Regime of limited zone"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Permitted Activities",
+            "Tourism"
+          ],
+          "view": {
+            "name": "Taking photos, audio, and video (SPA Law, Art. 11(8))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In limited zone the following activities may be conducted by unharmful form to the nature and with relevant permission:</p>[...]<br><p style=\"margin-left: 40px;\">8) taking photos and audio or video records and their use for writing and producing;</p>"
+              }
+            ],
+            "subtitle": "Article 11. Regime of limited zone"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Limited Zone - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Use of land without an agreement (Art. 33(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Land can be used by citizens, business entities, and organizations of Mongolia in limited zones of strictly protected areas and national parks, nature reserves, and monuments for certain purposes for certain periods under certain conditions on the basis of agreement in manners that are not harmful to the environment.</p>"
+              }
+            ],
+            "subtitle": "Article 33. Land Utilization in Special Protected Areas"
+          }
+        }
+      ],
+      "source": {
+        "fileName": "Mongolia_UGID-58_SPA-LTDZ-CFZ.json"
+      }
+    }
+  ]
+}

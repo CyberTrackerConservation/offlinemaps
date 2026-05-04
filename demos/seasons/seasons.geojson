@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": { "name": "Northern Hemisphere" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-180, 0], [180, 0], [180, 90], [-180, 90], [-180, 0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": { "name": "Southern Hemisphere" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-180, -90], [180, -90], [180, 0], [-180, 0], [-180, -90]
+        ]]
+      }
+    }
+  ]
+}

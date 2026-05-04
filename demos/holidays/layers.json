@@ -1,0 +1,9 @@
+[
+  {
+    "filename": "holidays.geojson",
+    "name": "Country Holidays",
+    "active": true,
+    "opacity": 0.3,
+    "lookup": true
+  }
+]

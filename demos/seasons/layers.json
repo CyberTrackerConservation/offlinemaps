@@ -1,0 +1,9 @@
+[
+  {
+    "filename": "seasons.geojson",
+    "name": "Seasons",
+    "active": true,
+    "opacity": 0.5,
+    "lookup": true
+  }
+]

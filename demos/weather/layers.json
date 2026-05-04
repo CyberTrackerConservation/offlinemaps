@@ -1,0 +1,9 @@
+[
+  {
+    "filename": "weather.geojson",
+    "name": "Weather",
+    "active": true,
+    "opacity": 0.0,
+    "lookup": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": { "name": "Mongolia" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [87.0, 41.5], [120.0, 41.5], [120.0, 52.5], [87.0, 52.5], [87.0, 41.5]
+        ]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "filename": "Mongolia_UGID-91_NP-SPEZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-91_NP-SPEZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#2E8B57",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-109_NP-TOUZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-109_NP-TOUZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#FFD700",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-127_NP-RESZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-127_NP-RESZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#66CDAA",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-19_SPA-CZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-19_SPA-CZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "8B0000",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-22_SPA-CZ-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-22_SPA-CZ-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#6B8E23",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-25_SPA-CZ-BDS.shp",
+    "legalAtlas": true,
+    "name": "UGID-25_SPA-CZ-BDS",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#800080",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-28_SPA-CZ-BDS-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-28_SPA-CZ-BDS-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#556B2F",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-37_SPA-PROZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-37_SPA-PROZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#DC143C",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-40_SPA-PROZ-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-40_SPA-PROZ-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#228B22",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-43_SPA-PROZ-BDS.shp",
+    "legalAtlas": true,
+    "name": "UGID-43_SPA-PROZ-BDS",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#8A2BE2",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-46_SPA-PROZ-BDS-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-46_SPA-PROZ-BDS-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#2F4F4F",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-55_SPA-LTDZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-55_SPA-LTDZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#FF8C00",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-58_SPA-LTDZ-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-58_SPA-LTDZ-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#9ACD32",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-61_SPA-LTDZ-BDS.shp",
+    "legalAtlas": true,
+    "name": "UGID-61_SPA-LTDZ-BDS",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#4169E1",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-64_SPA-LTDZ-BDS-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-64_SPA-LTDZ-BDS-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#20B2AA",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-67_SPA-LTDZ-BDS-BDWZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-67_SPA-LTDZ-BDS-BDWZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#4682B4",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-70_SPA-LTDZ-BDS-BDWZ-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-70_SPA-LTDZ-BDS-BDWZ-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#5F9EA0",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-94_NP-SPEZ-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-94_NP-SPEZ-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#b3d0ff",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-112_NP-TOUZ-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-112_NP-TOUZ-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#c7ffd7",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  },
+  {
+    "filename": "Mongolia_UGID-130_NP-RESZ-CFZ.shp",
+    "legalAtlas": true,
+    "name": "UGID-130_NP-RESZ-CFZ",
+    "active": true,
+    "opacity": 0.1,
+    "symbol": {
+      "fill-style": "solid",
+      "fill-color": "#f7cfff",
+      "outline-symbol": {
+        "stroke-style": "solid",
+        "stroke-size": 1.0,
+        "stroke-color": "#404040"
+      }
+    }
+  }
+]

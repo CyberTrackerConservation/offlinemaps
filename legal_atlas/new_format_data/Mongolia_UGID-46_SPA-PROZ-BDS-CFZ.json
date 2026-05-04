@@ -1,0 +1,2572 @@
+{
+  "content": {
+    "id": "converted-content-package",
+    "language": "en",
+    "defaultLocale": "en-US"
+  },
+  "datasets": [
+    {
+      "id": "legal-mongolia-ugid-46",
+      "filter": {
+        "featureIds": [
+          "*"
+        ]
+      },
+      "rows": [
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Authorizing Statute",
+            "Protected Areas"
+          ],
+          "view": {
+            "name": "Authorizes taking areas under special protection (SPA Law, Art. 1)",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>The purpose of this law is to regulate relations concerning the utilization of and taking areas under special protection, preservation, and protection of natural landscape to keep particular features of natural zones and belts, their peculiar formation, forms of rare and rarest fauna and flora, historical and cultural sites, and natural sightseeing,&nbsp;as well as studying and identifying their evolution.</p>"
+              }
+            ],
+            "subtitle": "Article 1. Purpose of the law"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Authorizing Statute",
+            "Protected Areas"
+          ],
+          "view": {
+            "name": "Creates the category of Strictly Protected Area (SPA Law, Art. 3(1)(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. State special protected area shall be classified as follows:</p><p style=\"margin-left: 40px;\">1) Strictly Protected Areas</p>"
+              }
+            ],
+            "subtitle": "Article 3. Classification of Special Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Authorizing Statute",
+            "Protected Areas"
+          ],
+          "view": {
+            "name": "Requirement to establish Protected Zones in Strictly Protected Areas (SPA Law, Art. 8(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>Strictly Protected Areas shall&nbsp;be divided in respect of their natural forms, state, features of soil, water, fauna, flora, and their vulnerability to human activities into the following zones:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) protected zone</p>"
+              }
+            ],
+            "subtitle": "Article 8. Strictly Protected Area Zones"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Enforcement Powers - Protected Area Rangers",
+            "Coercive Powers"
+          ],
+          "view": {
+            "name": "Use weapons in self-defense (SPA Law, Art. 32)",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The types of weapons and instruments to be used by wildlife rangers working in the special protected areas and the procedures for their use shall be established by the state central administrative body in consultation with the General Police Office.</p><p>2. Wildlife rangers may use weapons in the following events while performing their duties:</p><p style=\"margin-left: 40px;\">1) when the life and health of wildlife rangers are potentially endangered due to a real circumstance;</p><p style=\"margin-left: 40px;\">2) when the life and health of wildlife rangers are potentially endangered by wild animals.</p>"
+              }
+            ],
+            "subtitle": "Article 32. Use of Weapons by Wildlife Rangers"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Enforcement Powers - Protected Area Rangers",
+            "Coercive Powers"
+          ],
+          "view": {
+            "name": "Intervene in observed violations (SPA Law, Art. 31(2)(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) to monitor the implementation of this law and other environmental protection legislation, to intervene in the violations detected, and to impose the proper liabilities on guilty persons;</p>"
+              }
+            ],
+            "subtitle": "Article 31. Power of Wildlife Rangers"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Enforcement Powers - Protected Area Rangers",
+            "Coercive Powers"
+          ],
+          "view": {
+            "name": "Temporarily halt illegal and environmentally harmful activities (SPA Law, Art. 31(2)(4))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">4) to stop the activities of citizens, business entities, and organizations conducting activities that have negative impacts on the environment and violate the legislation and protection regime, temporarily, to give them timed orders and instructions&nbsp;and to make demands;</p>"
+              }
+            ],
+            "subtitle": "Article 31. Power of Wildlife Rangers"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Enforcement Powers - Protected Area Rangers",
+            "General Powers"
+          ],
+          "view": {
+            "name": "Exercise the rights and duties of the state environmental inspectors (SPA Law, Art. 31(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Administration staff responsible for environmental protection and wildlife rangers shall have the rights and duties of the state environmental inspectors.</p>"
+              }
+            ],
+            "subtitle": "Article 31. Power of Wildlife Rangers"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Enforcement Powers - Protected Area Rangers",
+            "General Powers"
+          ],
+          "view": {
+            "name": "Monitor the implementation of all environmental protection laws (SPA Law, Art. 33(2)(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) to monitor the implementation of this law and other environmental protection legislation, to intervene in the violations detected, and to impose the proper liabilities on guilty persons;</p>"
+              }
+            ],
+            "subtitle": "Article 31. Power of Wildlife Rangers"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Enforcement Powers - Protected Area Rangers",
+            "Investigative Powers"
+          ],
+          "view": {
+            "name": "Enter and audit businesses to monitor the implementation of the law (SPA Law, Art. 31(2)(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to enter and audit business entities and organizations to monitor the implementation of the legislation;</p>"
+              }
+            ],
+            "subtitle": "Article 31. Power of Wildlife Rangers"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Enforcement Powers - Protected Area Rangers",
+            "Investigative Powers"
+          ],
+          "view": {
+            "name": "Search and seize documents, vehicles, weapons, equipment, and contraband (SPA Law, Art. 31(2)(3))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">3) to check and collect documents of citizens suspected of violating the legislation, and if necessary, to search their vehicles and to confiscate their weapons, instruments, and things that they hunted, picked, or prepared;</p>"
+              }
+            ],
+            "subtitle": "Article 31. Power of Wildlife Rangers"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Enforcement Powers - Protected Area Rangers",
+            "Sanctioning Powers"
+          ],
+          "view": {
+            "name": "Impose fines (SPA Law, Art. 31(2)(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) to monitor the implementation of this law and other environmental protection legislation, to intervene in the violations detected, and to impose the proper liabilities on guilty persons;</p>"
+              }
+            ],
+            "subtitle": "Article 31. Power of Wildlife Rangers"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Permitted Activities",
+            "Protection Measures"
+          ],
+          "view": {
+            "name": "Protection measures to preserve original state of nature (SPA Law, Art. 10)",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In the protected zone, measures shall be taken as stipulated in Article 9 of this Law, as well as&nbsp;bio-technical measures related to the supply conditions for fauna and flora, and the recovery of damages caused by natural disasters,&nbsp;implemented in a manner that is harmless to nature and the environment.</p>"
+              }
+            ],
+            "subtitle": "Article 10. Protected Zone Regime"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Permitted Activities",
+            "Protection Measures"
+          ],
+          "view": {
+            "name": "Environmentally friendly 'biotechnical measures' for wild animals (SPA Law, Art. 10)",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In the protected zone, measures shall be taken as stipulated in Article 9 of this Law, as well as&nbsp;bio-technical measures related to the supply conditions for fauna and flora, and the recovery of damages caused by natural disasters,&nbsp;implemented in a manner that is harmless to nature and the environment.</p>"
+              }
+            ],
+            "subtitle": "Article 10. Protected Zone Regime"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Permitted Activities",
+            "Protection Measures"
+          ],
+          "view": {
+            "name": "Environmentally friendly 'biotechnical measures' for wild flora (SPA Law, Art. 10)",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In the protected zone, measures shall be taken as stipulated in Article 9 of this Law, as well as&nbsp;bio-technical measures related to the supply conditions for fauna and flora, and the recovery of damages caused by natural disasters,&nbsp;implemented in a manner that is harmless to nature and the environment.</p>"
+              }
+            ],
+            "subtitle": "Article 10. Protected Zone Regime"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Permitted Activities",
+            "Research"
+          ],
+          "view": {
+            "name": "Conduct research pursuant to agreement with the Ministry of Environment (SPA Law, Art. 41(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The organizations, foreign and international research organizations, which were granted permissions by the state central administrative body, may conduct research and studies in the special protected area based on&nbsp;agreements.</p>"
+              }
+            ],
+            "subtitle": "Article 41. The Organization to Carry Out Research and Studies in the Special Protected Area and Its Obligations"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Permitted Activities",
+            "Research"
+          ],
+          "view": {
+            "name": "Observational research and analysis (SPA Law, Art. 10)",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In the protected zone, measures shall be taken as stipulated in Article 9 of this Law, as well as&nbsp;bio-technical measures related to the supply conditions for fauna and flora, and the recovery of damages caused by natural disasters,&nbsp;implemented in a manner that is harmless to nature and the environment.</p>"
+              }
+            ],
+            "subtitle": "Article 10. Protected Zone Regime"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Permitted Activities",
+            "Tourism"
+          ],
+          "view": {
+            "name": "Guide tourists on approved routes only (Reg on Tourism Sec. 6(6))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>6.&nbsp;to guide tourists only along approved routes;</p>"
+              }
+            ],
+            "subtitle": "Section 6. Duties and rights of business entities and organizations engaged in tourism activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Permitted Activities",
+            "Wildlife Management"
+          ],
+          "view": {
+            "name": "Approved guidelines required for anyone hunting and trapping in protected areas (Reg Disease in PAs, Art. 4(17))",
+            "title": "Decree on Approval of Procedure - Infectious Disease in Protected Areas",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\">17. Researchers, business entities and organizations engaged in hunting and trapping activities in protected areas shall have guidelines approved in accordance with relevant regulations, and shall conduct hunting and trapping activities on the basis of an agreement with the PA Protected Area Administration and relevant soum governors.</p>"
+              }
+            ],
+            "subtitle": "Article 4. Responsibilities of researchers, business entities and organizations for hunting and trapping animals"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Permitted Activities",
+            "Wildlife Management"
+          ],
+          "view": {
+            "name": "Use approved methods and equipment for hunting and trapping in protected areas (Reg Disease in PAs, Art. 4(19))",
+            "title": "Decree on Approval of Procedure - Infectious Disease in Protected Areas",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\">19. Approved research methods, equipment and tools for hunting and trapping shall be used in hunting and trapping.</p>"
+              }
+            ],
+            "subtitle": "Article 4. Responsibilities of researchers, business entities and organizations for hunting and trapping animals"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Permitted Activities",
+            "Wildlife Management"
+          ],
+          "view": {
+            "name": "Conduct hunting and trapping in Strictly Protected Areas only under the supervision of protected area staff and rangers (Reg Disease in PAs, Art. 4(20))",
+            "title": "Decree on Approval of Procedure - Infectious Disease in Protected Areas",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\">20. Hunting and trapping of animals in the Strictly Protected Areas shall be carried out under the supervision of the Strictly Protected Area's administrative staff and rangers.</p>"
+              }
+            ],
+            "subtitle": "Article 4. Responsibilities of researchers, business entities and organizations for hunting and trapping animals"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Commercial Use of Resources"
+          ],
+          "view": {
+            "name": "Collect and prepare natural secondary resources for production purposes (SPA Law, Art. 12(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to collect and prepare natural secondary resources, medicinal, food, or technical plants for production purposes;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Commercial Use of Resources"
+          ],
+          "view": {
+            "name": "Collect and prepare medicinal plants for production purposes (SPA Law, Art. 12(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to collect and prepare natural secondary resources, medicinal, food, or technical plants for production purposes;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Commercial Use of Resources"
+          ],
+          "view": {
+            "name": "Collect and prepare food plants for production purposes (SPA Law, Art. 12(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to collect and prepare natural secondary resources, medicinal, food, or technical plants for production purposes;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Commercial Use of Resources"
+          ],
+          "view": {
+            "name": "Collect and prepare technical plants for production purposes (SPA Law, Art. 12(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to collect and prepare natural secondary resources, medicinal, food, or technical plants for production purposes;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Environmentally Harmful Activities"
+          ],
+          "view": {
+            "name": "Use of environmentally harmful methods, techniques, and substances to combat pests and rodents (SPA Law, Art. 12(4))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">4) to use any method, technique, or substance harmful to nature and the environment in the fight against harmful insects, rodents, fire, and in the prevention thereof;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Environmentally Harmful Activities"
+          ],
+          "view": {
+            "name": "Use environmentally harmful methods, techniques, and substances to combat fires (SPA Law, Art. 12(4))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">4) to use any method, technique, or substance harmful to nature and the environment in the fight against harmful insects, rodents, fire, and in the prevention thereof;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Environmentally Harmful Activities"
+          ],
+          "view": {
+            "name": "Activities that have a negative impact (SPA Law, Art. 12(11))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">11) to conduct other activities harmful to nature and the environment, prohibited by legislation and the protection regime.</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Forest Resources"
+          ],
+          "view": {
+            "name": "Commercial harvest of forest resources from protected areas (CUFRR, Art. 3.1)",
+            "title": "Conservation and Use of Forest Resources Regulation",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>3.1. Resources may be harvested from the permitted areas of the State Specially Protected Areas only for domestic purposes, and from other forests in the amounts and purposes specified in Table 1. Table 1. Maximum amount of resource use</p>"
+              }
+            ],
+            "subtitle": "Article 3. Maximum Amount and Period of Resource Use"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Grazing"
+          ],
+          "view": {
+            "name": "Construct of winter, spring, autumn, or summer camps (SPA Law, Art. 12(9))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">9) to construct facilities for winter, spring, autumn, and summer camping sites, to pasture cattle permanently;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Grazing"
+          ],
+          "view": {
+            "name": "Graze livestock without proper permits (SPA Law, Art. 12(9))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">9) to construct facilities for winter, spring, autumn, and summer camping sites, to pasture cattle permanently;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Infrastructure Development"
+          ],
+          "view": {
+            "name": "Construct buildings other than those permitted by law (SPA Law, Art. 12(5))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">5) to construct buildings or facilities other than those stipulated in Paragraph 7 of Article 11 of the present Law;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Pollution Crime"
+          ],
+          "view": {
+            "name": "Pollute soil (SPA Law, Art. 12(6))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">6) to conduct any activities polluting water, soil, or air;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Pollution Crime"
+          ],
+          "view": {
+            "name": "Pollute air (SPA Law, Art. 12(6))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">6) to conduct any activities polluting water, soil, or air;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Pollution Crime"
+          ],
+          "view": {
+            "name": "Open dumping of dry waste and wastewater (Reg on Tourism in PAs, ANN 1, Art. 7(8))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>8.&nbsp;Open dumping of dry waste and wastewater to pollute soil, vegetation, air, and adversely affect the environmental balance f except for tourists passing through the territory.</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Tourism"
+          ],
+          "view": {
+            "name": "Use tourism land for other purposes (Reg on Tourism in PAs, ANN 1, Art. 7(4))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Tourism"
+          ],
+          "view": {
+            "name": "Tourism on unapproved routes (Reg on Tourism in PAs, ANN 1, Art. 7(7))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>7.&nbsp;Traveling tourists on unapproved routes</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Activities"
+          ],
+          "view": {
+            "name": "Possession of a gun without permission from PA administration (SPA Law, Art. 12(7))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">7) to have a gun or a dog without permission from the protected area administration;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Activities"
+          ],
+          "view": {
+            "name": "Possession of a dog without permission from PA administration (SPA Law, Art. 12(7))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">7) to have a gun or a dog without permission from the protected area administration;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Activities"
+          ],
+          "view": {
+            "name": "Conduct activities prohibited by law (SPA Law, Art. 12(11))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">11) to conduct other activities harmful to nature and the environment, prohibited by legislation and the protection regime.</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Activities"
+          ],
+          "view": {
+            "name": "Activities that are not protection measures, observational research or biotechnical measures for wild fauna and flora (SPA Law, Art. 10)",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In the protected zone, measures shall be taken as stipulated in Article 9 of this Law</p>"
+              }
+            ],
+            "subtitle": "Article 10. Protected Zone Regime"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Activities"
+          ],
+          "view": {
+            "name": "Carry out activities without a valid contract (Reg on Tourism in PAs, ANN 1, Art. 7(1))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1.&nbsp;No tripartite land use agreement has been concluded, certified or extended in the protected area</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Activities"
+          ],
+          "view": {
+            "name": "Carry out activities not specified in contract (Reg on Tourism in PAs, ANN 1, Art 7(2))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2.&nbsp;Carry out activities not specified in the contract</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Activities"
+          ],
+          "view": {
+            "name": "Unauthorized sampling of soil (Reg on Tourism in PAs, ANN 1, Art. 7(5))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Activities"
+          ],
+          "view": {
+            "name": "Unauthorized sampling of natural resources (Reg on Tourism in PAs, ANN 1, Art. 7(5))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Activities"
+          ],
+          "view": {
+            "name": "Introduction of non-native plants (Reg on Tourism in PAs, ANN 1, Art. 7(5))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Infrastructure Development"
+          ],
+          "view": {
+            "name": "Construct or operate structures for which no EIA has been approved (Reg on Tourism in PAs, ANN 1, Art. 7(3))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>3.&nbsp;Construction and operation of buildings and structures based on drawings and projects that have not been subjected to a general or detailed environmental impact assessment</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Assign land, fully or partially, to others (SPA Law, Art. 39(1)(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The citizen, business entity and/or organization who are using land in the special protected area shall be prohibited from conducting the following activities:</p>[...]<br><p style=\"margin-left: 40px;\">1) to assign the land fully or partially to others;</p>"
+              }
+            ],
+            "subtitle": "Article 39. Prohibited Activities of Land User"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Use of land to conduct prohibited activities (SPA Law, Art. 39(1)(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The citizen, business entity and/or organization who are using land in the special protected area shall be prohibited from conducting the following activities:</p>[...]<br><p style=\"margin-left: 40px;\">2) to conduct activities that are prohibited under this law and the protection regime of the special protected area, and/or activities that are not provided in the agreement or are harmful to the environment.</p>"
+              }
+            ],
+            "subtitle": "Article 39. Prohibited Activities of Land User"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Use of any land by any person who has had a land use agreement revoked (SPA Law, Art. 39(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. In case the land is taken back from the user on the grounds provided in the law, the user shall not be given any land again in the special protected area.</p>"
+              }
+            ],
+            "subtitle": "Article 39. Prohibited Activities of Land User"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Use land for activities not provided for in the land use agreement (SPA Law, Art. 39(1)(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The citizen, business entity, and/or organization who are using land in the special protected area shall be prohibited from conducting the following activities:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to conduct activities that are prohibited under this law and the protection regime of the special protected area, and/or activities that are not provided in the agreement or are harmful to the environment.</p>"
+              }
+            ],
+            "subtitle": "Article 39. Prohibited Activities of Land User"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Use land in a manner harmful to the environment (SPA Law, Art. 39(1)(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The citizen, business entity, and/or organization who are using land in the special protected area shall be prohibited from conducting the following activities:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to conduct activities that are prohibited under this law and the protection regime of the special protected area, and/or activities that are not provided in the agreement or are harmful to the environment.</p>"
+              }
+            ],
+            "subtitle": "Article 39. Prohibited Activities of Land User"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Use of land by foreign persons, except for permitted project activities (SPA Law, Art.33(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. Legal persons of foreign countries, international organizations, foreign citizens, stateless persons, and business entities with foreign investment shall be prohibited from using land in the special protected areas.</p>"
+              }
+            ],
+            "subtitle": "Article 33. Land Utilization in Special Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Use of land by foreign organizations, except for permitted project activities (SPA Law, Art. 33(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. Legal persons of foreign countries, international organizations, foreign citizens, stateless persons, and business entities with foreign investment shall be prohibited from using land in the special protected areas.</p>"
+              }
+            ],
+            "subtitle": "Article 33. Land Utilization in Special Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Use of land by businesses with foreign investment, except for permitted project activities (SPA Law, Art. 33(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>2. Legal persons of foreign countries, international organizations, foreign citizens, stateless persons, and business entities with foreign investment shall be prohibited from using land in the special protected areas.</p>"
+              }
+            ],
+            "subtitle": "Article 33. Land Utilization in Special Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Ownership of land in special protected areas (LL, Art. 5.2)",
+            "title": "Law on Land (Revised)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>5.2. Land, excluding pastureland, land for common tenure and land for the state special state needs, may be given for ownership to citizens of Mongolia only.</p>"
+              }
+            ],
+            "subtitle": "Article 5. Land Owner"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Transfer land in whole or in part (Reg on Tourism in PAs, ANN 1, Art. 7(4))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "To sell land to a third party (Reg on Tourism in PAs, ANN 1, Art. 7(4))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "To lease land to a third party (Reg on Tourism in PAs, ANN 1, Art. 7(4))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "To use land as collateral (Reg on Tourism in PAs, ANN 1, Art. 7(4))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Resource Use"
+          ],
+          "view": {
+            "name": "Unauthorized use of natural resources (Reg on Tourism in PAs, ANN 1, ANN 1, Art. 7(5))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Resource Use"
+          ],
+          "view": {
+            "name": "Unauthorized collection of plants (Reg on Tourism in PAs, ANN 1, Art. 7(5))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Vehicle Use"
+          ],
+          "view": {
+            "name": "Land an aircraft without prior permission, except in emergencies (SPA Law, Art. 12(8))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">8) to land an aircraft or fly over or at an extremely low altitude without previous permission from the protected area administration, unless there is no other way;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Unauthorized Vehicle Use"
+          ],
+          "view": {
+            "name": "Fly over at extremely low altitude without prior permission, except in emergencies (SPA Law, Art. 12(8))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">8) to land an aircraft or fly over or at an extremely low altitude without previous permission from the protected area administration, unless there is no other way;</p>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Water Resources"
+          ],
+          "view": {
+            "name": "Activities that may negatively affect spring 'protection zones' (Reg on Use of Springs, Art. 2(14))",
+            "title": "Regulation on Use of Springs in Protected Areas",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>14. It is prohibited to carry out any activities that may negatively affect the health and protection zone of the spring.</p>"
+              }
+            ],
+            "subtitle": "Article 2. Use of springs"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Water Resources"
+          ],
+          "view": {
+            "name": "Use of springs for services in protected areas by foreign entities, citizens and international organizations (Reg on Use of Springs, Art. 2(15))",
+            "title": "Regulation on Use of Springs in Protected Areas",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>15. Foreign legal entities, foreign citizens, international organizations, and non-state persons shall be prohibited from using the spring for services in the SPA.</p>"
+              }
+            ],
+            "subtitle": "Article 2. Use of springs"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Wildlife Crime"
+          ],
+          "view": {
+            "name": "Hunting or trapping in a protected area to manage disease outbreaks without guidelines or agreement (Reg Disease in PAs, Art. 4(17))",
+            "title": "Decree on Approval of Procedure - Infectious Disease in Protected Areas",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\">17. Researchers, business entities and organizations engaged in hunting and trapping activities in protected areas shall have guidelines approved in accordance with relevant regulations, and shall conduct hunting and trapping activities on the basis of an agreement with the PA Protected Area Administration and relevant soum governors.</p>"
+              }
+            ],
+            "subtitle": "Article 4. Responsibilities of researchers, business entities and organizations for hunting and trapping animals"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Wildlife Crime"
+          ],
+          "view": {
+            "name": "Hunt or trap wildlife (SPA Law, Art. 12(3))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<strong><p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">3) to hunt, catch, scare or drive out animals, damage or demolish their nets, dens or holes with the purpose other than those stipulated in Paragraph 4 of Article 11 of the present Law;</p></strong>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Wildlife Crime"
+          ],
+          "view": {
+            "name": "Scare or drive out wild animals (SPA Law, Art. 12(3))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<strong><p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">3) to hunt, catch, scare or drive out animals, damage or demolish their nets, dens or holes with the purpose other than those stipulated in Paragraph 4 of Article 11 of the present Law;</p></strong>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Wildlife Crime"
+          ],
+          "view": {
+            "name": "Disturbing or destroying nests, lairs, burrows, or dens (SPA Law, Art. 12(3))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<strong><p>In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">3) to hunt, catch, scare or drive out animals, damage or demolish their nets, dens or holes with the purpose other than those stipulated in Paragraph 4 of Article 11 of the present Law;</p></strong>"
+              }
+            ],
+            "subtitle": "Article 12. Activities Prohibited in Strictly Protected Areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Wildlife Crime"
+          ],
+          "view": {
+            "name": "Unauthorized capture of animals (Reg on Tourism in PAs, Art. 7(5))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Prohibited Activity",
+            "Wildlife Crime"
+          ],
+          "view": {
+            "name": "Introduction of non-native animals (Reg on Tourism in PAs, ANN 1, Art. 7(5))",
+            "title": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>"
+              }
+            ],
+            "subtitle": "Section 7. Prohibition activities"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Aggravating Circumstances"
+          ],
+          "view": {
+            "name": "Repeated violations (SPA Law, Art. 40(1)(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) repeated or serious violations of the protection regime of the special protected area.</p>"
+              }
+            ],
+            "subtitle": "Article 40. Termination of License for Land Utilization and Freeing the Land"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Aggravating Circumstances"
+          ],
+          "view": {
+            "name": "Serious violations (SPA Law, Art. 40(1)(2))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) repeated or serious violations of the protection regime of the special protected area.</p>"
+              }
+            ],
+            "subtitle": "Article 40. Termination of License for Land Utilization and Freeing the Land"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Forest Resource Crime"
+          ],
+          "view": {
+            "name": "Unauthorized harvesting timber in a protected area (CC, Art. 24.6(1) and (2))",
+            "title": "Criminal Code (as amended 2020)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Whoever harvests timber from a forest without a permit, or harvests, transports, sells, or purchases timber or timber products without a certificate of origin, shall be punished by a fine in the amount of four hundred and fifty to five thousand four hundred tugriks, or by community service for a period of two hundred and forty to seven hundred and twenty hours, or by restriction of travel rights for a period of one month to one year.</p><p>/This section was amended by the Law of May 11, 2017/</p><p>2. This crime is committed:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2.3. in forests of specially protected areas of the state;</p>[...]<br></strong><strong><p>by restriction of travel rights for a period of one to five years, or by imprisonment for a period of one to five years.</p>"
+              },
+              {
+                "type": "attributes",
+                "label": "Penalties",
+                "items": [
+                  {
+                    "label": "Fine Currency",
+                    "format": "text",
+                    "value": "Tugrik-MNT"
+                  },
+                  {
+                    "label": "Fine Max",
+                    "format": "text",
+                    "value": 10800000
+                  },
+                  {
+                    "label": "Fine Min",
+                    "format": "text",
+                    "value": 900000
+                  },
+                  {
+                    "label": "Other Details",
+                    "format": "text",
+                    "value": "Restriction of travel rights for 1 - 5 years"
+                  },
+                  {
+                    "label": "Penalty Applicable To",
+                    "format": "text",
+                    "value": "Persons"
+                  },
+                  {
+                    "label": "Penalty Unit",
+                    "format": "text",
+                    "value": "Fine Unit, Mongolia"
+                  },
+                  {
+                    "label": "Penalty Unit Max",
+                    "format": "text",
+                    "value": 5400
+                  },
+                  {
+                    "label": "Penalty Unit Min",
+                    "format": "text",
+                    "value": 450
+                  },
+                  {
+                    "label": "Penalty Unit Used",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Penalty Unit Value",
+                    "format": "text",
+                    "value": 2000
+                  },
+                  {
+                    "label": "Prison Term Max",
+                    "format": "text",
+                    "value": 5
+                  },
+                  {
+                    "label": "Prison Term Min",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Prison Term Unit",
+                    "format": "text",
+                    "value": "years"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "Article 24.6. Illegal logging"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Forest Resource Crime"
+          ],
+          "view": {
+            "name": "Harvesting of timber in a protected area without a certificate of origin (CC, Art. 24.6(1) an (2))",
+            "title": "Criminal Code (as amended 2020)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Whoever harvests timber from a forest without a permit, or harvests, transports, sells, or purchases timber or timber products without a certificate of origin, shall be punished by a fine in the amount of four hundred and fifty to five thousand four hundred tugriks, or by community service for a period of two hundred and forty to seven hundred and twenty hours, or by restriction of travel rights for a period of one month to one year.</p><p>/This section was amended by the Law of May 11, 2017/</p><p>2. This crime is committed:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2.3. in forests of specially protected areas of the state;</p>[...]<br></strong><strong><p>by restriction of travel rights for a period of one to five years, or by imprisonment for a period of one to five years.</p>"
+              },
+              {
+                "type": "attributes",
+                "label": "Penalties",
+                "items": [
+                  {
+                    "label": "Fine Currency",
+                    "format": "text",
+                    "value": "Tugrik-MNT"
+                  },
+                  {
+                    "label": "Fine Max",
+                    "format": "text",
+                    "value": 10800000
+                  },
+                  {
+                    "label": "Fine Min",
+                    "format": "text",
+                    "value": 900000
+                  },
+                  {
+                    "label": "Other Details",
+                    "format": "text",
+                    "value": "Restriction of travel rights for 1 - 5 years"
+                  },
+                  {
+                    "label": "Penalty Applicable To",
+                    "format": "text",
+                    "value": "Persons"
+                  },
+                  {
+                    "label": "Penalty Unit",
+                    "format": "text",
+                    "value": "Fine Unit, Mongolia"
+                  },
+                  {
+                    "label": "Penalty Unit Max",
+                    "format": "text",
+                    "value": 5400
+                  },
+                  {
+                    "label": "Penalty Unit Min",
+                    "format": "text",
+                    "value": 450
+                  },
+                  {
+                    "label": "Penalty Unit Used",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Penalty Unit Value",
+                    "format": "text",
+                    "value": 2000
+                  },
+                  {
+                    "label": "Prison Term Max",
+                    "format": "text",
+                    "value": 5
+                  },
+                  {
+                    "label": "Prison Term Min",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Prison Term Unit",
+                    "format": "text",
+                    "value": "years"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "Article 24.6. Illegal logging"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Forest Resource Crime"
+          ],
+          "view": {
+            "name": "Selling timber in a protected area without a certificate of origin (CC, Art. 24.6(1) an (2))",
+            "title": "Criminal Code (as amended 2020)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Whoever harvests timber from a forest without a permit, or harvests, transports, sells, or purchases timber or timber products without a certificate of origin, shall be punished by a fine in the amount of four hundred and fifty to five thousand four hundred tugriks, or by community service for a period of two hundred and forty to seven hundred and twenty hours, or by restriction of travel rights for a period of one month to one year.</p>[...]<br></strong><strong><p>2. This crime is committed:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2.3. in forests of specially protected areas of the state;</p>[...]<br></strong><strong><p>by restriction of travel rights for a period of one to five years, or by imprisonment for a period of one to five years.</p>"
+              },
+              {
+                "type": "attributes",
+                "label": "Penalties",
+                "items": [
+                  {
+                    "label": "Fine Currency",
+                    "format": "text",
+                    "value": "Tugrik-MNT"
+                  },
+                  {
+                    "label": "Fine Max",
+                    "format": "text",
+                    "value": 10800000
+                  },
+                  {
+                    "label": "Fine Min",
+                    "format": "text",
+                    "value": 900000
+                  },
+                  {
+                    "label": "Other Details",
+                    "format": "text",
+                    "value": "Restriction of travel rights for 1 - 5 years"
+                  },
+                  {
+                    "label": "Penalty Applicable To",
+                    "format": "text",
+                    "value": "Persons"
+                  },
+                  {
+                    "label": "Penalty Unit",
+                    "format": "text",
+                    "value": "Fine Unit, Mongolia"
+                  },
+                  {
+                    "label": "Penalty Unit Max",
+                    "format": "text",
+                    "value": 5400
+                  },
+                  {
+                    "label": "Penalty Unit Min",
+                    "format": "text",
+                    "value": 450
+                  },
+                  {
+                    "label": "Penalty Unit Used",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Penalty Unit Value",
+                    "format": "text",
+                    "value": 2000
+                  },
+                  {
+                    "label": "Prison Term Max",
+                    "format": "text",
+                    "value": 5
+                  },
+                  {
+                    "label": "Prison Term Min",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Prison Term Unit",
+                    "format": "text",
+                    "value": "years"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "Article 24.6. Illegal logging"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Forest Resource Crime"
+          ],
+          "view": {
+            "name": "Selling timber in a protected area without a certificate of origin (CC, Art. 24.6(1) an (2))",
+            "title": "Criminal Code (as amended 2020)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Whoever harvests timber from a forest without a permit, or harvests, transports, sells, or purchases timber or timber products without a certificate of origin, shall be punished by a fine in the amount of four hundred and fifty to five thousand four hundred tugriks, or by community service for a period of two hundred and forty to seven hundred and twenty hours, or by restriction of travel rights for a period of one month to one year.</p>[...]<br></strong><strong><p>2. This crime is committed:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2.3. in forests of specially protected areas of the state;</p>[...]<br></strong><strong><p>by restriction of travel rights for a period of one to five years, or by imprisonment for a period of one to five years.</p>"
+              },
+              {
+                "type": "attributes",
+                "label": "Penalties",
+                "items": [
+                  {
+                    "label": "Fine Currency",
+                    "format": "text",
+                    "value": "Tugrik-MNT"
+                  },
+                  {
+                    "label": "Fine Max",
+                    "format": "text",
+                    "value": 10800000
+                  },
+                  {
+                    "label": "Fine Min",
+                    "format": "text",
+                    "value": 900000
+                  },
+                  {
+                    "label": "Other Details",
+                    "format": "text",
+                    "value": "Restriction of travel rights for 1 - 5 years"
+                  },
+                  {
+                    "label": "Penalty Applicable To",
+                    "format": "text",
+                    "value": "Persons"
+                  },
+                  {
+                    "label": "Penalty Unit",
+                    "format": "text",
+                    "value": "Fine Unit, Mongolia"
+                  },
+                  {
+                    "label": "Penalty Unit Max",
+                    "format": "text",
+                    "value": 5400
+                  },
+                  {
+                    "label": "Penalty Unit Min",
+                    "format": "text",
+                    "value": 450
+                  },
+                  {
+                    "label": "Penalty Unit Used",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Penalty Unit Value",
+                    "format": "text",
+                    "value": 2000
+                  },
+                  {
+                    "label": "Prison Term Max",
+                    "format": "text",
+                    "value": 5
+                  },
+                  {
+                    "label": "Prison Term Min",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Prison Term Unit",
+                    "format": "text",
+                    "value": "years"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "Article 24.6. Illegal logging"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Forest Resource Crime"
+          ],
+          "view": {
+            "name": "Purchasing timber in a protected area without a certificate of origin (CC, Art. 24.6(1) an (2))",
+            "title": "Criminal Code (as amended 2020)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Whoever harvests timber from a forest without a permit, or harvests, transports, sells, or purchases timber or timber products without a certificate of origin, shall be punished by a fine in the amount of four hundred and fifty to five thousand four hundred tugriks, or by community service for a period of two hundred and forty to seven hundred and twenty hours, or by restriction of travel rights for a period of one month to one year.</p>[...]<br></strong><strong><p>2. This crime is committed:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2.3. in forests of specially protected areas of the state;</p>[...]<br></strong><strong><p>by restriction of travel rights for a period of one to five years, or by imprisonment for a period of one to five years.</p>"
+              },
+              {
+                "type": "attributes",
+                "label": "Penalties",
+                "items": [
+                  {
+                    "label": "Fine Currency",
+                    "format": "text",
+                    "value": "Tugrik-MNT"
+                  },
+                  {
+                    "label": "Fine Max",
+                    "format": "text",
+                    "value": 10800000
+                  },
+                  {
+                    "label": "Fine Min",
+                    "format": "text",
+                    "value": 900000
+                  },
+                  {
+                    "label": "Other Details",
+                    "format": "text",
+                    "value": "Restriction of travel rights for 1 - 5 years"
+                  },
+                  {
+                    "label": "Penalty Applicable To",
+                    "format": "text",
+                    "value": "Persons"
+                  },
+                  {
+                    "label": "Penalty Unit",
+                    "format": "text",
+                    "value": "Fine Unit, Mongolia"
+                  },
+                  {
+                    "label": "Penalty Unit Max",
+                    "format": "text",
+                    "value": 5400
+                  },
+                  {
+                    "label": "Penalty Unit Min",
+                    "format": "text",
+                    "value": 450
+                  },
+                  {
+                    "label": "Penalty Unit Used",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Penalty Unit Value",
+                    "format": "text",
+                    "value": 2000
+                  },
+                  {
+                    "label": "Prison Term Max",
+                    "format": "text",
+                    "value": 5
+                  },
+                  {
+                    "label": "Prison Term Min",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Prison Term Unit",
+                    "format": "text",
+                    "value": "years"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "Article 24.6. Illegal logging"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Forest Resource Crime"
+          ],
+          "view": {
+            "name": "Purchasing timber in a protected area without a certificate of origin (CC, Art. 24.6(1) an (2))",
+            "title": "Criminal Code (as amended 2020)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Whoever harvests timber from a forest without a permit, or harvests, transports, sells, or purchases timber or timber products without a certificate of origin, shall be punished by a fine in the amount of four hundred and fifty to five thousand four hundred tugriks, or by community service for a period of two hundred and forty to seven hundred and twenty hours, or by restriction of travel rights for a period of one month to one year.</p>[...]<br></strong><strong><p>2. This crime is committed:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2.3. in forests of specially protected areas of the state;</p>[...]<br></strong><strong><p>by restriction of travel rights for a period of one to five years, or by imprisonment for a period of one to five years.</p>"
+              },
+              {
+                "type": "attributes",
+                "label": "Penalties",
+                "items": [
+                  {
+                    "label": "Fine Currency",
+                    "format": "text",
+                    "value": "Tugrik-MNT"
+                  },
+                  {
+                    "label": "Fine Max",
+                    "format": "text",
+                    "value": 10800000
+                  },
+                  {
+                    "label": "Fine Min",
+                    "format": "text",
+                    "value": 900000
+                  },
+                  {
+                    "label": "Other Details",
+                    "format": "text",
+                    "value": "Restriction of travel rights for 1 - 5 years"
+                  },
+                  {
+                    "label": "Penalty Applicable To",
+                    "format": "text",
+                    "value": "Persons"
+                  },
+                  {
+                    "label": "Penalty Unit",
+                    "format": "text",
+                    "value": "Fine Unit, Mongolia"
+                  },
+                  {
+                    "label": "Penalty Unit Max",
+                    "format": "text",
+                    "value": 5400
+                  },
+                  {
+                    "label": "Penalty Unit Min",
+                    "format": "text",
+                    "value": 450
+                  },
+                  {
+                    "label": "Penalty Unit Used",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Penalty Unit Value",
+                    "format": "text",
+                    "value": 2000
+                  },
+                  {
+                    "label": "Prison Term Max",
+                    "format": "text",
+                    "value": 5
+                  },
+                  {
+                    "label": "Prison Term Min",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Prison Term Unit",
+                    "format": "text",
+                    "value": "years"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "Article 24.6. Illegal logging"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Prohibited Activities"
+          ],
+          "view": {
+            "name": "Illegal entry into Mongolia (CrimCode Art. 19.14)",
+            "title": "Criminal Code (as amended 2020)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. A fine of one thousand three hundred and fifty to ten thousand togrogs or restriction of the right to travel for a period of six months to two years shall be imposed for entering Mongolia without entry or exit documents, or forged documents, or without proper permission,&nbsp;or imprisonment for a term of six months to two years.</p>"
+              },
+              {
+                "type": "attributes",
+                "label": "Penalties",
+                "items": [
+                  {
+                    "label": "Fine Currency",
+                    "format": "text",
+                    "value": "Tugrik-MNT"
+                  },
+                  {
+                    "label": "Fine Max",
+                    "format": "text",
+                    "value": 20000000
+                  },
+                  {
+                    "label": "Fine Min",
+                    "format": "text",
+                    "value": 2700000
+                  },
+                  {
+                    "label": "Other Details",
+                    "format": "text",
+                    "value": "Restriction of right to travel for 6 - 24 months"
+                  },
+                  {
+                    "label": "Penalty Applicable To",
+                    "format": "text",
+                    "value": "Persons"
+                  },
+                  {
+                    "label": "Penalty Unit",
+                    "format": "text",
+                    "value": "Fine Unit, Mongolia"
+                  },
+                  {
+                    "label": "Penalty Unit Max",
+                    "format": "text",
+                    "value": 10000
+                  },
+                  {
+                    "label": "Penalty Unit Min",
+                    "format": "text",
+                    "value": 1350
+                  },
+                  {
+                    "label": "Penalty Unit Used",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Penalty Unit Value",
+                    "format": "text",
+                    "value": 2000
+                  },
+                  {
+                    "label": "Prison Term Max",
+                    "format": "text",
+                    "value": 24
+                  },
+                  {
+                    "label": "Prison Term Min",
+                    "format": "text",
+                    "value": 6
+                  },
+                  {
+                    "label": "Prison Term Unit",
+                    "format": "text",
+                    "value": "months"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "Article 19.14. Illegal entry of the border of Mongolia"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Protected Area Violation"
+          ],
+          "view": {
+            "name": "Violating protected area laws, administrative norms, standards, regimes and procedures (LoI Art. 7.17(1))",
+            "title": "Law on Infringements ",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\">1. In special protected areas:</p><p style=\"margin-left: 80px;\">1.1. Violation of laws, administrative norms, standards, regimes and procedures;</p><p style=\"margin-left: 80px;\">1.2. A person shall be fined in the amount of three thousand units togrogs and a legal entity shall be fined in the amount of thirty thousand units togrogs for damages and compensation for activities not included in the management plan.</p>"
+              }
+            ]
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Protected Area Violation"
+          ],
+          "view": {
+            "name": "Carrying out activities prohibited in Special Protected Areas (LoI Art 7.17(2))",
+            "title": "Law on Infringements ",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\">2. Carrying out activities prohibited by law in a specially protected area shall be punishable by a fine of 500 togrogs for a person or 5,000 togrogs for a legal person.</p><p><a class=\"level_tag_href\" href=\"#toc_level_1\" id=\"toc_level1_content_8\"><span class=\"toc_level toc_level1_class\"></span></a></p>"
+              },
+              {
+                "type": "attributes",
+                "label": "Penalties",
+                "items": [
+                  {
+                    "label": "Fine Currency",
+                    "format": "text",
+                    "value": "Tugrik-MNT"
+                  },
+                  {
+                    "label": "Fine Max",
+                    "format": "text",
+                    "value": 1000000
+                  },
+                  {
+                    "label": "Fine Min",
+                    "format": "text",
+                    "value": 1000000
+                  },
+                  {
+                    "label": "Penalty Applicable To",
+                    "format": "text",
+                    "value": "Persons"
+                  },
+                  {
+                    "label": "Penalty Unit",
+                    "format": "text",
+                    "value": "Fine Unit, Mongolia"
+                  },
+                  {
+                    "label": "Penalty Unit Max",
+                    "format": "text",
+                    "value": 500
+                  },
+                  {
+                    "label": "Penalty Unit Min",
+                    "format": "text",
+                    "value": 500
+                  },
+                  {
+                    "label": "Penalty Unit Used",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Penalty Unit Value",
+                    "format": "text",
+                    "value": 2000
+                  }
+                ]
+              }
+            ],
+            "subtitle": "Article 7.17. Carrying out prohibited activities in special protected areas"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Protected Area Violation"
+          ],
+          "view": {
+            "name": "Unauthorized entry into a protected area (LoI Art. 8.1(1))",
+            "title": "Law on Infringements ",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\">1. Unauthorized entry into a specially protected area, such as installing signs prohibiting access to other people's possession or use, or erecting a fence, shall be punishable by a fine of 25 units togrogs for a person or two hundred and fifty units togrogs for a legal person.</p>"
+              }
+            ],
+            "subtitle": "Article 8.1. Violation of the Land Law"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Protected Area Violation"
+          ],
+          "view": {
+            "name": "Installing signs prohibiting access to the Protected Area (LoI Art. 8.1(1))",
+            "title": "Law on Infringements ",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\">1. Unauthorized entry into a specially protected area, such as installing signs prohibiting access to other people's possession or use, or erecting a fence, shall be punishable by a fine of 25 units togrogs for a person or two hundred and fifty units togrogs for a legal person.</p>"
+              }
+            ],
+            "subtitle": "Article 8.1. Violation of the Land Law"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Protected Area Violation"
+          ],
+          "view": {
+            "name": "Erecting a fence (LoI Art. 8.1(1))",
+            "title": "Law on Infringements ",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\">1. Unauthorized entry into a specially protected area, such as installing signs prohibiting access to other people's possession or use, or erecting a fence, shall be punishable by a fine of 25 units togrogs for a person or two hundred and fifty units togrogs for a legal person.</p>"
+              }
+            ],
+            "subtitle": "Article 8.1. Violation of the Land Law"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Protected Area Violation"
+          ],
+          "view": {
+            "name": "Illegal entry into a protected area in connection with civil aviation activities (LoI Art. 14.8(5))",
+            "title": "Law on Infringements ",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p style=\"margin-left: 40px;\"></p><p style=\"margin-left: 40px;\">5. Illegal entry into a protected area in connection with civil aviation activities shall be punishable by a fine of 50 units togrogs.</p>"
+              }
+            ],
+            "subtitle": "Article 14.8. Violation of the Civil Aviation Law"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Illegal assignment of land to another (SPA Law, Art. 40(1)(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) on the grounds provided in Article 39 of the Land Law;</p>"
+              }
+            ],
+            "subtitle": "Article 40. Termination of License for Land Utilization and Freeing the Land"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Conducting prohibited activity (SPA Law, Art. 40(1)(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) on the grounds provided in Article 39 of the Land Law;</p>"
+              }
+            ],
+            "subtitle": "Article 40. Termination of License for Land Utilization and Freeing the Land"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Conducting activities not authorized in the land use agreement (SPA Law, Art. 40(1)(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) on the grounds provided in Article 39 of the Land Law;</p>"
+              }
+            ],
+            "subtitle": "Article 40. Termination of License for Land Utilization and Freeing the Land"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Conducting environmentally harmful activities (SPA Law, Art. 40(1)(1))",
+            "title": "Special Protected Areas Law (as amended 2021)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) on the grounds provided in Article 39 of the Land Law;</p>"
+              }
+            ],
+            "subtitle": "Article 40. Termination of License for Land Utilization and Freeing the Land"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Unauthorized Land Use"
+          ],
+          "view": {
+            "name": "Repeated violations of contract terms (Reg Land Man, Art. 6.1)",
+            "title": "Regulation on Temporary Land Management in Protected Areas",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>6.1 Citizens, business entities, and organizations using land in special protected areas shall strictly fulfill their obligations specified in the agreement. Failure to comply with the contract will result in liability under applicable law, and, in the event of repeated violations causing significant environmental damage, the contract will be terminated.</p>"
+              }
+            ],
+            "subtitle": "Article 6. Liability"
+          }
+        },
+        {
+          "path": [
+            "Mongolia",
+            "Strictly Protected Areas - Protected Zone - Border Defense Strip - Conservation Forest Zone",
+            "Offenses and Penalties",
+            "Wildlife Crime"
+          ],
+          "view": {
+            "name": "Hunting without a permit in a protected area (CC, Art. 24.5(1))",
+            "title": "Criminal Code (as amended 2020)",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Details",
+                "format": "html",
+                "value": "<p>1. Anyone who hunts or captures animals without a permit in a specially protected area, or who hunts or captures rare animals without a permit, intentionally breeds, stores, sells, purchases, transports, exports to foreign countries, or collects stuffed animals, tissues, organs, or raw materials derived from them, shall be punished by a fine of five thousand four hundred to twenty-seven thousand tugriks, or restriction of travel rights for a period of one to five years, or imprisonment for a period of one to five years.</p>"
+              },
+              {
+                "type": "attributes",
+                "label": "Penalties",
+                "items": [
+                  {
+                    "label": "Fine Currency",
+                    "format": "text",
+                    "value": "Tugrik-MNT"
+                  },
+                  {
+                    "label": "Fine Max",
+                    "format": "text",
+                    "value": 54000000
+                  },
+                  {
+                    "label": "Fine Min",
+                    "format": "text",
+                    "value": 10800000
+                  },
+                  {
+                    "label": "Other Details",
+                    "format": "text",
+                    "value": "Restriction of travel rights for a period of one to five years"
+                  },
+                  {
+                    "label": "Penalty Applicable To",
+                    "format": "text",
+                    "value": "Persons"
+                  },
+                  {
+                    "label": "Penalty Unit",
+                    "format": "text",
+                    "value": "Fine Unit, Mongolia"
+                  },
+                  {
+                    "label": "Penalty Unit Max",
+                    "format": "text",
+                    "value": 27000
+                  },
+                  {
+                    "label": "Penalty Unit Min",
+                    "format": "text",
+                    "value": 5400
+                  },
+                  {
+                    "label": "Penalty Unit Used",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Penalty Unit Value",
+                    "format": "text",
+                    "value": 2000
+                  },
+                  {
+                    "label": "Prison Term Max",
+                    "format": "text",
+                    "value": 5
+                  },
+                  {
+                    "label": "Prison Term Min",
+                    "format": "text",
+                    "value": 1
+                  },
+                  {
+                    "label": "Prison Term Unit",
+                    "format": "text",
+                    "value": "years"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "Article 24.5. Illegal hunting"
+          }
+        }
+      ],
+      "source": {
+        "fileName": "Mongolia_UGID-46_SPA-PROZ-BDS-CFZ.json"
+      }
+    }
+  ]
+}

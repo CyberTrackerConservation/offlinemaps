@@ -1,0 +1,25 @@
+{
+  "content": {
+    "id": "Weather",
+    "language": "en",
+    "defaultLocale": "en-US"
+  },
+  "datasets": [
+    {
+      "id": "weather-anywhere",
+      "filter": { "featureIds": ["*"] },
+      "rows": [
+        {
+          "path": ["Weather"],
+          "view": {
+            "name": "Local weather",
+            "title": "wttr.in",
+            "blocks": [
+              { "type": "web", "value": "https://wttr.in/<latitude>,<longitude>?0" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

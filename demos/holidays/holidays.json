@@ -1,0 +1,99 @@
+{
+  "content": {
+    "id": "Holidays",
+    "language": "en",
+    "defaultLocale": "en-US"
+  },
+  "datasets": [
+    {
+      "id": "holidays-mongolia",
+      "filter": { "featureIds": ["1"] },
+      "rows": [
+        {
+          "path": ["Mongolia", "January"],
+          "view": {
+            "name": "Шинэ жил (New Year's Day)",
+            "title": "New Year's Day",
+            "subtitle": "January 1",
+            "blocks": [
+              { "type": "body", "label": "About", "format": "text",
+                "value": "First day of the Gregorian calendar year. Public holiday in Mongolia." }
+            ]
+          }
+        },
+        {
+          "path": ["Mongolia", "February"],
+          "view": {
+            "name": "Цагаан Сар (Tsagaan Sar)",
+            "title": "Tsagaan Sar",
+            "subtitle": "Lunar new year — late January or February (varies)",
+            "blocks": [
+              { "type": "body", "label": "About", "format": "text",
+                "value": "Mongolian Lunar New Year and the most important traditional holiday. Three public-holiday days centred on the first new moon after the winter solstice." }
+            ]
+          }
+        },
+        {
+          "path": ["Mongolia", "March"],
+          "view": {
+            "name": "Олон улсын эмэгтэйчүүдийн өдөр (International Women's Day)",
+            "title": "International Women's Day",
+            "subtitle": "March 8",
+            "blocks": [
+              { "type": "body", "label": "About", "format": "text",
+                "value": "Public holiday in Mongolia honouring the social, economic, cultural and political achievements of women." }
+            ]
+          }
+        },
+        {
+          "path": ["Mongolia", "June"],
+          "view": {
+            "name": "Хүүхдийн баяр (Mother and Child Day)",
+            "title": "Mother and Child Day",
+            "subtitle": "June 1",
+            "blocks": [
+              { "type": "body", "label": "About", "format": "text",
+                "value": "Mongolia's national children's day; widely celebrated with family events and gifts." }
+            ]
+          }
+        },
+        {
+          "path": ["Mongolia", "July"],
+          "view": {
+            "name": "Үндэсний их баяр Наадам (Naadam Festival)",
+            "title": "Naadam Festival",
+            "subtitle": "July 11–15",
+            "blocks": [
+              { "type": "body", "label": "About", "format": "text",
+                "value": "Mongolia's largest national holiday. Features the 'three manly games' — wrestling, horse racing, and archery — and commemorates the 1921 People's Revolution." }
+            ]
+          }
+        },
+        {
+          "path": ["Mongolia", "November"],
+          "view": {
+            "name": "Чингис хааны төрсөн өдөр (Genghis Khan's Birthday)",
+            "title": "Genghis Khan's Birthday",
+            "subtitle": "First day of the first winter month (lunar; usually November)",
+            "blocks": [
+              { "type": "body", "label": "About", "format": "text",
+                "value": "National holiday honouring the founder of the Mongol Empire, observed on the first day of the first winter month in the lunar calendar." }
+            ]
+          }
+        },
+        {
+          "path": ["Mongolia", "December"],
+          "view": {
+            "name": "Үндэсний эрх чөлөөний өдөр (Independence Day)",
+            "title": "Independence Day",
+            "subtitle": "December 29",
+            "blocks": [
+              { "type": "body", "label": "About", "format": "text",
+                "value": "Marks the 1911 declaration of independence from the Qing dynasty and the restoration of Mongolian sovereignty." }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

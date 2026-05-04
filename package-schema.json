@@ -1,0 +1,373 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/package-schema.json",
+  "title": "Matched Content Package",
+  "description": "Schema for a language-specific content package used for spatial/date matching and UI rendering.",
+  "type": "object",
+  "required": [
+    "content",
+    "datasets"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "content": {
+      "$ref": "#/$defs/content"
+    },
+    "datasets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/dataset"
+      }
+    }
+  },
+  "$defs": {
+    "languageTag": {
+      "type": "string",
+      "description": "BCP 47 language tag.",
+      "minLength": 2,
+      "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+    },
+    "localeTag": {
+      "type": "string",
+      "description": "Locale identifier, typically aligned with a BCP 47 language tag.",
+      "minLength": 2,
+      "pattern": "^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$"
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "id",
+        "language"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language": {
+          "$ref": "#/$defs/languageTag"
+        },
+        "defaultLocale": {
+          "$ref": "#/$defs/localeTag"
+        }
+      }
+    },
+    "featureRef": {
+      "type": "string",
+      "minLength": 1,
+      "description": "GeoJSON feature.id value (coerced to string), or the wildcard \"*\" meaning every feature in the sibling GeoJSON."
+    },
+    "filter": {
+      "type": "object",
+      "description": "Applicability filter. A dataset (or row override) applies when its featureIds match the matched feature and, if present, the current time falls within the when range.",
+      "required": [
+        "featureIds"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "featureIds": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Feature ids from the sibling GeoJSON file (same basename as this package, .geojson extension). The sentinel [\"*\"] matches every feature.",
+          "items": {
+            "$ref": "#/$defs/featureRef"
+          }
+        },
+        "when": {
+          "$ref": "#/$defs/when"
+        }
+      }
+    },
+    "when": {
+      "description": "Time applicability. Omit or use null for always-applicable rows.",
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "start": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "end": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "allDay": {
+              "type": "boolean"
+            },
+            "timezone": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "start",
+            "end"
+          ],
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "allDay": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "allDay"
+                ]
+              },
+              "then": {
+                "required": [
+                  "timezone"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "attributeValue": {
+      "description": "Renderable attribute value. May be simple text/number/boolean, or richer JSON for advanced renderers.",
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "integer"
+        },
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "object"
+        },
+        {
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "attributeItem": {
+      "type": "object",
+      "required": [
+        "label",
+        "format",
+        "value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format": {
+          "type": "string",
+          "enum": [
+            "text",
+            "html",
+            "markdown",
+            "json"
+          ]
+        },
+        "value": {
+          "$ref": "#/$defs/attributeValue"
+        }
+      }
+    },
+    "bodyBlock": {
+      "type": "object",
+      "required": [
+        "type",
+        "format",
+        "value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "body"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format": {
+          "type": "string",
+          "enum": [
+            "text",
+            "html",
+            "markdown"
+          ]
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    },
+    "attributesBlock": {
+      "type": "object",
+      "required": [
+        "type",
+        "label",
+        "items"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "attributes"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/attributeItem"
+          }
+        }
+      }
+    },
+    "webBlock": {
+      "type": "object",
+      "required": [
+        "type",
+        "value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "web"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {
+          "type": "string",
+          "format": "uri",
+          "minLength": 1
+        },
+        "orientation": {
+          "type": "string",
+          "enum": [
+            "portrait",
+            "landscape"
+          ]
+        }
+      }
+    },
+    "viewBlock": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/bodyBlock"
+        },
+        {
+          "$ref": "#/$defs/attributesBlock"
+        },
+        {
+          "$ref": "#/$defs/webBlock"
+        }
+      ]
+    },
+    "view": {
+      "type": "object",
+      "required": [
+        "title",
+        "blocks"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "blocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/viewBlock"
+          }
+        }
+      }
+    },
+    "row": {
+      "type": "object",
+      "required": [
+        "path",
+        "view"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "filter": {
+          "$ref": "#/$defs/filter",
+          "description": "Optional row-level override or specialization of applicability."
+        },
+        "path": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "view": {
+          "$ref": "#/$defs/view"
+        }
+      }
+    },
+    "dataset": {
+      "type": "object",
+      "required": [
+        "id",
+        "filter",
+        "rows"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "filter": {
+          "$ref": "#/$defs/filter"
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "fileName": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/row"
+          }
+        }
+      }
+    }
+  }
+}

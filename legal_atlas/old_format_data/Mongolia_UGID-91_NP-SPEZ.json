@@ -1,0 +1,1239 @@
+[
+  {
+    "Country": "Mongolia",
+    "Unique Geography": "National Park - Special Zone",
+    "Unique Geography ID": "91",
+    "File Name": "Mongolia_UGID-91_NP-SPEZ.json",
+    "Tag Categories": [
+      {
+        "1st Level Tag Category": "Authorizing Statute",
+        "2nd Level Tag Categories": [
+          {
+            "2nd Level Tag Category": "Protected Areas",
+            "Tagging Details": [
+              {
+                "Summary": "Authorizes taking areas under special protection",
+                "Tag Ref": "SPA Law, Art. 1",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 1. Purpose of the law",
+                "Primary Tag Details": "<p>The purpose of this law is to regulate relations concerning the utilization of and taking areas under special protection, preservation, and protection of natural landscape to keep particular features of natural zones and belts, their peculiar formation, forms of rare and rarest fauna and flora, historical and cultural sites, and natural sightseeing,&nbsp;as well as studying and identifying their evolution.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Establishes 'National Parks' protected area category",
+                "Tag Ref": "SPA Law, Art. 3(1)(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 3. Classification of Special Protected Areas",
+                "Primary Tag Details": "<p>1. State special protected area shall be classified as follows:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) National Parks</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Requires establishment of National Park Special Zone",
+                "Tag Ref": "SPA Law, Art. 14(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 14. National Park Zones",
+                "Primary Tag Details": "<p>National Parks shall be divided in respect of their natural state, location of animals and plants, requirement of conservation of historical and cultural monuments, conditions for developing tours and tourism into the following zones:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) special zone</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "1st Level Tag Category": "Enforcement Powers - Protected Area Rangers",
+        "2nd Level Tag Categories": [
+          {
+            "2nd Level Tag Category": "Coercive Powers",
+            "Tagging Details": [
+              {
+                "Summary": "Use weapons in self-defense",
+                "Tag Ref": "SPA Law, Art. 32",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 32. Use of Weapons by Wildlife Rangers",
+                "Primary Tag Details": "<p>1. The types of weapons and instruments to be used by wildlife rangers working in the special protected areas and the procedures for their use shall be established by the state central administrative body in consultation with the General Police Office.</p><p>2. Wildlife rangers may use weapons in the following events while performing their duties:</p><p style=\"margin-left: 40px;\">1) when the life and health of wildlife rangers are potentially endangered due to a real circumstance;</p><p style=\"margin-left: 40px;\">2) when the life and health of wildlife rangers are potentially endangered by wild animals.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Intervene in observed violations",
+                "Tag Ref": "SPA Law, Art. 31(2)(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 31. Power of Wildlife Rangers",
+                "Primary Tag Details": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) to monitor the implementation of this law and other environmental protection legislation, to intervene in the violations detected, and to impose the proper liabilities on guilty persons;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Temporarily halt illegal and environmentally harmful activities",
+                "Tag Ref": "SPA Law, Art. 31(2)(4)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 31. Power of Wildlife Rangers",
+                "Primary Tag Details": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">4) to stop the activities of citizens, business entities, and organizations conducting activities that have negative impacts on the environment and violate the legislation and protection regime, temporarily, to give them timed orders and instructions&nbsp;and to make demands;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "General Powers",
+            "Tagging Details": [
+              {
+                "Summary": "Exercise the rights and duties of the state environmental inspectors",
+                "Tag Ref": "SPA Law, Art. 31(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 31. Power of Wildlife Rangers",
+                "Primary Tag Details": "<p>1. Administration staff responsible for environmental protection and wildlife rangers shall have the rights and duties of the state environmental inspectors.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Monitor the implementation of all environmental protection laws",
+                "Tag Ref": "SPA Law, Art. 33(2)(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 31. Power of Wildlife Rangers",
+                "Primary Tag Details": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) to monitor the implementation of this law and other environmental protection legislation, to intervene in the violations detected, and to impose the proper liabilities on guilty persons;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Investigative Powers",
+            "Tagging Details": [
+              {
+                "Summary": "Enter and audit businesses to monitor the implementation of the law",
+                "Tag Ref": "SPA Law, Art. 31(2)(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 31. Power of Wildlife Rangers",
+                "Primary Tag Details": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to enter and audit business entities and organizations to monitor the implementation of the legislation;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Search and seize documents, vehicles, weapons, equipment, and contraband",
+                "Tag Ref": "SPA Law, Art. 31(2)(3)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 31. Power of Wildlife Rangers",
+                "Primary Tag Details": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">3) to check and collect documents of citizens suspected of violating the legislation, and if necessary, to search their vehicles and to confiscate their weapons, instruments, and things that they hunted, picked, or prepared;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Sanctioning Powers",
+            "Tagging Details": [
+              {
+                "Summary": "Impose fines",
+                "Tag Ref": "SPA Law, Art. 31(2)(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 31. Power of Wildlife Rangers",
+                "Primary Tag Details": "<p>2. Wildlife rangers working in the special protected areas shall exercise the following power:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) to monitor the implementation of this law and other environmental protection legislation, to intervene in the violations detected, and to impose the proper liabilities on guilty persons;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "1st Level Tag Category": "Permitted Activities",
+        "2nd Level Tag Categories": [
+          {
+            "2nd Level Tag Category": "Protection Measures",
+            "Tagging Details": [
+              {
+                "Summary": "Create conditions where flora and fauna will grow and reproduce\t",
+                "Tag Ref": "SPA Law, Art. 15",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 15. Special Zone Regime",
+                "Primary Tag Details": "<p>Apart from protection measures,&nbsp;measures to carry out surveys and research, using methods that do not have an impact on the environment, to create conditions where flora and fauna will grow and reproduce, to reclaim soil, and to mitigate the damages caused by natural disasters shall be taken in a special zone.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Measure to reclaim soil",
+                "Tag Ref": "SPA Law, Art. 15",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 15. Special Zone Regime",
+                "Primary Tag Details": "<p>Apart from protection measures,&nbsp;measures to carry out surveys and research, using methods that do not have an impact on the environment, to create conditions where flora and fauna will grow and reproduce, to reclaim soil, and to mitigate the damages caused by natural disasters shall be taken in a special zone.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Research",
+            "Tagging Details": [
+              {
+                "Summary": "Carry out surveys and research",
+                "Tag Ref": "SPA Law, Art. 15",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 15. Special Zone Regime",
+                "Primary Tag Details": "<p>Apart from protection measures,&nbsp;measures to carry out surveys and research, using methods that do not have an impact on the environment, to create conditions where flora and fauna will grow and reproduce, to reclaim soil, and to mitigate the damages caused by natural disasters shall be taken in a special zone.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Conduct research pursuant to agreement with the Ministry of Environment",
+                "Tag Ref": "SPA Law, Art. 41(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 41. The Organization to Carry Out Research and Studies in the Special Protected Area and Its Obligations",
+                "Primary Tag Details": "<p>1. The organizations, foreign and international research organizations, which were granted permissions by the state central administrative body, may conduct research and studies in the special protected area based on&nbsp;agreements.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Tourism",
+            "Tagging Details": [
+              {
+                "Summary": "Guide tourists on approved routes only",
+                "Tag Ref": "Reg on Tourism Sec. 6(6)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 6. Duties and rights of business entities and organizations engaged in tourism activities",
+                "Primary Tag Details": "<p>6.&nbsp;to guide tourists only along approved routes;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Water Resources",
+            "Tagging Details": [
+              {
+                "Summary": "Use springs for domestic purposes",
+                "Tag Ref": "Reg on Use of Springs, Art. 2(7)",
+                "Law": "Regulation on Use of Springs in Protected Areas",
+                "Toc": "Article 2. Use of springs",
+                "Primary Tag Details": "<p>7. Springs in the special zone of a protected area or a national park shall be used only for domestic purposes.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Wildlife Management",
+            "Tagging Details": [
+              {
+                "Summary": "Approved guidelines required for anyone hunting and trapping in protected areas",
+                "Tag Ref": "Reg Disease in PAs, Art. 4(17)",
+                "Law": "Decree on Approval of Procedure - Infectious Disease in Protected Areas",
+                "Toc": "Article 4. Responsibilities of researchers, business entities and organizations for hunting and trapping animals",
+                "Primary Tag Details": "<p style=\"margin-left: 40px;\">17. Researchers, business entities and organizations engaged in hunting and trapping activities in protected areas shall have guidelines approved in accordance with relevant regulations, and shall conduct hunting and trapping activities on the basis of an agreement with the PA Protected Area Administration and relevant soum governors.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use approved methods and equipment for hunting and trapping in protected areas",
+                "Tag Ref": "Reg Disease in PAs, Art. 4(19)",
+                "Law": "Decree on Approval of Procedure - Infectious Disease in Protected Areas",
+                "Toc": "Article 4. Responsibilities of researchers, business entities and organizations for hunting and trapping animals",
+                "Primary Tag Details": "<p style=\"margin-left: 40px;\">19. Approved research methods, equipment and tools for hunting and trapping shall be used in hunting and trapping.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "1st Level Tag Category": "Prohibited Activity",
+        "2nd Level Tag Categories": [
+          {
+            "2nd Level Tag Category": "Environmentally Harmful Activities",
+            "Tagging Details": [
+              {
+                "Summary": "Use environmentally harmful methods, techniques, or substances against harmful insects",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use environmentally harmful methods, techniques, or substances against rodents",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use environmentally harmful methods, techniques, or substances in fire fighting",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Polluting Activities",
+            "Tagging Details": [
+              {
+                "Summary": "Conduct activities polluting water",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Conduct activities polluting soil",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Conduct activities polluting air",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Pollution Crime",
+            "Tagging Details": [
+              {
+                "Summary": "Open dumping of dry waste and wastewater",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(8)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>8.&nbsp;Open dumping of dry waste and wastewater to pollute soil, vegetation, air, and adversely affect the environmental balance f except for tourists passing through the territory.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Tourism",
+            "Tagging Details": [
+              {
+                "Summary": "Use tourism land for other purposes",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(4)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Tourism on unapproved routes",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(7)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>7.&nbsp;Traveling tourists on unapproved routes</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Unauthorized Activities",
+            "Tagging Details": [
+              {
+                "Summary": "Possession of a gun without permission",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Possession of a dog without permission",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Carry out activities without a valid contract",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(1)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>1.&nbsp;No tripartite land use agreement has been concluded, certified or extended in the protected area</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Carry out activities not specified in contract",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art 7(2)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>2.&nbsp;Carry out activities not specified in the contract</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Unauthorized sampling of soil",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(5)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Unauthorized sampling of natural resources",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(5)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Introduction of non-native plants",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(5)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Unauthorized Forest Use",
+            "Tagging Details": [
+              {
+                "Summary": "Wood cutting",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Unauthorized Infrastructure Development",
+            "Tagging Details": [
+              {
+                "Summary": "Road making",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Construct non-tourist buildings",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Construct non-tourist facilities",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Construct or operate structures for which no EIA has been approved",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(3)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>3.&nbsp;Construction and operation of buildings and structures based on drawings and projects that have not been subjected to a general or detailed environmental impact assessment</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Unauthorized Land Use",
+            "Tagging Details": [
+              {
+                "Summary": "Assign land, fully or partially, to others",
+                "Tag Ref": "SPA Law, Art. 39(1)(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 39. Prohibited Activities of Land User",
+                "Primary Tag Details": "<p>1. The citizen, business entity and/or organization who are using land in the special protected area shall be prohibited from conducting the following activities:</p>[...]<br><p style=\"margin-left: 40px;\">1) to assign the land fully or partially to others;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use of land to conduct prohibited activities",
+                "Tag Ref": "SPA Law, Art. 39(1)(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 39. Prohibited Activities of Land User",
+                "Primary Tag Details": "<p>1. The citizen, business entity and/or organization who are using land in the special protected area shall be prohibited from conducting the following activities:</p>[...]<br><p style=\"margin-left: 40px;\">2) to conduct activities that are prohibited under this law and the protection regime of the special protected area, and/or activities that are not provided in the agreement or are harmful to the environment.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use of any land by any person who has had a land use agreement revoked",
+                "Tag Ref": "SPA Law, Art. 39(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 39. Prohibited Activities of Land User",
+                "Primary Tag Details": "<p>2. In case the land is taken back from the user on the grounds provided in the law, the user shall not be given any land again in the special protected area.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Land ploughing",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Digging",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use of explosives",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Mineral exploration",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Mining",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Sand and gravel extraction",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Construct facilities for winter camp sites, to permanently pasture cattle",
+                "Tag Ref": "SPA Law, Art. 18(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p>[...]<br><p style=\"margin-left: 40px;\">2) to conduct in a special zone activities provided in paragraphs 9 and 10 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Construct facilities for spring camp sites, to permanently pasture cattle",
+                "Tag Ref": "SPA Law, Art. 18(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p>[...]<br><p style=\"margin-left: 40px;\">2) to conduct in a special zone activities provided in paragraphs 9 and 10 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Construct facilities for autumn camp sites, to permanently pasture cattle",
+                "Tag Ref": "SPA Law, Art. 18(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p>[...]<br><p style=\"margin-left: 40px;\">2) to conduct in a special zone activities provided in paragraphs 9 and 10 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Construct facilities for summer camp sites, to permanently pasture cattle",
+                "Tag Ref": "SPA Law, Art. 18(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p>[...]<br><p style=\"margin-left: 40px;\">2) to conduct in a special zone activities provided in paragraphs 9 and 10 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Expand the territory of a village, breaching the approved general plan",
+                "Tag Ref": "SPA Law, Art. 18(3)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p>[...]<br><p style=\"margin-left: 40px;\">3) to expand the territory of a village and build facilities breaching the approved general plan, projec,t and drawings.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Build facilities, breaching the approved general plan",
+                "Tag Ref": "SPA Law, Art. 18(3)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p>[...]<br><p style=\"margin-left: 40px;\">3) to expand the territory of a village and build facilities breaching the approved general plan, projec,t and drawings.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use land for activities not provided for in the land use agreement",
+                "Tag Ref": "SPA Law, Art. 39(1)(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 39. Prohibited Activities of Land User",
+                "Primary Tag Details": "<p>1. The citizen, business entity, and/or organization who are using land in the special protected area shall be prohibited from conducting the following activities:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to conduct activities that are prohibited under this law and the protection regime of the special protected area, and/or activities that are not provided in the agreement or are harmful to the environment.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use land in a manner harmful to the environment",
+                "Tag Ref": "SPA Law, Art. 39(1)(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 39. Prohibited Activities of Land User",
+                "Primary Tag Details": "<p>1. The citizen, business entity, and/or organization who are using land in the special protected area shall be prohibited from conducting the following activities:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) to conduct activities that are prohibited under this law and the protection regime of the special protected area, and/or activities that are not provided in the agreement or are harmful to the environment.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use of land by foreign persons, except for permitted project activities",
+                "Tag Ref": "SPA Law, Art.33(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 33. Land Utilization in Special Protected Areas",
+                "Primary Tag Details": "<p>2. Legal persons of foreign countries, international organizations, foreign citizens, stateless persons, and business entities with foreign investment shall be prohibited from using land in the special protected areas.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use of land by foreign organizations, except for permitted project activities",
+                "Tag Ref": "SPA Law, Art. 33(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 33. Land Utilization in Special Protected Areas",
+                "Primary Tag Details": "<p>2. Legal persons of foreign countries, international organizations, foreign citizens, stateless persons, and business entities with foreign investment shall be prohibited from using land in the special protected areas.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use of land by businesses with foreign investment, except for permitted project activities",
+                "Tag Ref": "SPA Law, Art. 33(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 33. Land Utilization in Special Protected Areas",
+                "Primary Tag Details": "<p>2. Legal persons of foreign countries, international organizations, foreign citizens, stateless persons, and business entities with foreign investment shall be prohibited from using land in the special protected areas.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Ownership of land in special protected areas",
+                "Tag Ref": "LL, Art. 5.2",
+                "Law": "Law on Land (Revised)",
+                "Toc": "Article 5. Land Owner",
+                "Primary Tag Details": "<p>5.2. Land, excluding pastureland, land for common tenure and land for the state special state needs, may be given for ownership to citizens of Mongolia only.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Transfer land in whole or in part",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(4)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "To sell land to a third party",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(4)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "To lease land to a third party",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(4)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "To use land as collateral",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(4)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>4.&nbsp;To use the land used for tourism for other purposes, to transfer to others in whole or in part, to lease, sell, and pledge</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Unauthorized Resource Use",
+            "Tagging Details": [
+              {
+                "Summary": "Reed cutting",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Collect and prepare medicinal plants for production purposes",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Collect and prepare food plants for production purposes",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Collect and prepare technical plants for production purposes",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Unauthorized use of natural resources",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, ANN 1, Art. 7(5)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Unauthorized collection of plants",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(5)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Unauthorized Vehicle Use",
+            "Tagging Details": [
+              {
+                "Summary": "Land an aircraft without prior permission",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Fly over at an extremely low altitude without prior permission",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Unauthorized Water Use",
+            "Tagging Details": [
+              {
+                "Summary": "Exploit open water sources for production purposes",
+                "Tag Ref": "SPA Law, Art. 18(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p>[...]<br><p style=\"margin-left: 40px;\">2) to conduct in a special zone activities provided in paragraphs 9 and 10 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Water Resources",
+            "Tagging Details": [
+              {
+                "Summary": "Activities that may negatively affect spring 'protection zones'",
+                "Tag Ref": "Reg on Use of Springs, Art. 2(14)",
+                "Law": "Regulation on Use of Springs in Protected Areas",
+                "Toc": "Article 2. Use of springs",
+                "Primary Tag Details": "<p>14. It is prohibited to carry out any activities that may negatively affect the health and protection zone of the spring.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Use of springs for services in protected areas by foreign entities, citizens and international organizations",
+                "Tag Ref": "Reg on Use of Springs, Art. 2(15)",
+                "Law": "Regulation on Use of Springs in Protected Areas",
+                "Toc": "Article 2. Use of springs",
+                "Primary Tag Details": "<p>15. Foreign legal entities, foreign citizens, international organizations, and non-state persons shall be prohibited from using the spring for services in the SPA.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Wildlife Crime",
+            "Tagging Details": [
+              {
+                "Summary": "Hunting or trapping in a protected area to manage disease outbreaks without guidelines or agreement",
+                "Tag Ref": "Reg Disease in PAs, Art. 4(17)",
+                "Law": "Decree on Approval of Procedure - Infectious Disease in Protected Areas",
+                "Toc": "Article 4. Responsibilities of researchers, business entities and organizations for hunting and trapping animals",
+                "Primary Tag Details": "<p style=\"margin-left: 40px;\">17. Researchers, business entities and organizations engaged in hunting and trapping activities in protected areas shall have guidelines approved in accordance with relevant regulations, and shall conduct hunting and trapping activities on the basis of an agreement with the PA Protected Area Administration and relevant soum governors.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Hunt animals",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "",
+                "Primary Tag Details": "",
+                "Cross-Reference Tag Details": "<a class=\"show_tageditor_law_doc_details_popup\" href=\"#\" data-link_parameter=\"https://www.legal-atlas.net/?action=tageditor_open_doc&amp;id=31632,31632\" data-selected_toc_id=\"31632,31632\" data-selected_toc=\"Article 12. Activities Prohibited in Strictly Protected Areas,Article 12. Activities Prohibited in Strictly Protected Areas\" data-selected_law_id=\"65622\" data-selected_law_name=\"Special Protected Areas Law (as amended 2021)\" data-selected_ref_link_text=\"&amp;lt;strong&amp;gt;&amp;lt;p&amp;gt;In Strictly Protected Areas, the following activities shall be prohibited from being conducted for any purpose other than stipulated in Articles 10 and 11 of the present Law:&amp;lt;/p&amp;gt;[...]&amp;lt;br&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;p style=@#margin-left: 40px;@#&amp;gt;3) to hunt, catch, scare or drive out animals, damage or demolish their nets, dens or holes with the purpose other than those stipulated in Paragraph 4 of Article 11 of the present Law;&amp;lt;/p&amp;gt;&amp;lt;/strong&amp;gt;\" data-unique_id=\"1771062769872\" data-selected_doc=\"Mongolia_Law_on_Special_Protected_Areas_1994_ENG.pdf\" data-selected_toc_level=\"\" data-selected_toc_block=\"\">paragraphs 1-8 and 11 of Article 12</a>",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Capture animals",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Scare animals",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Drive out animals",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Damage or demolish nets, dens or holes other than for census purposes",
+                "Tag Ref": "SPA Law, Art. 18(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 18. Prohibited Activities in National Parks",
+                "Primary Tag Details": "<p>The following activities shall be prohibited in a national park for any purpose except those provided in Articles 15, 16, and 17 of this Law:</p><p style=\"margin-left: 40px;\">1) to conduct activities provided in paragraphs 1-8 and 11 of Article 12 of this Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Unauthorized capture of animals",
+                "Tag Ref": "Reg on Tourism in PAs, Art. 7(5)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Introduction of non-native animals",
+                "Tag Ref": "Reg on Tourism in PAs, ANN 1, Art. 7(5)",
+                "Law": "Regulation on Tourism in Protected Areas and Payment of One-Time Environmental Fees",
+                "Toc": "Section 7. Prohibition activities",
+                "Primary Tag Details": "<p>5.&nbsp;Unauthorized use of natural resources, sampling of soil, water, and natural resources, capture of animals, collection of plants, as well as import of non-native animals and plants into the territory, damage to historical and cultural monuments, and displacement</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "1st Level Tag Category": "Offenses and Penalties",
+        "2nd Level Tag Categories": [
+          {
+            "2nd Level Tag Category": "Aggravating Circumstances",
+            "Tagging Details": [
+              {
+                "Summary": "Repeated violations",
+                "Tag Ref": "SPA Law, Art. 40(1)(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 40. Termination of License for Land Utilization and Freeing the Land",
+                "Primary Tag Details": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) repeated or serious violations of the protection regime of the special protected area.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Serious violations",
+                "Tag Ref": "SPA Law, Art. 40(1)(2)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 40. Termination of License for Land Utilization and Freeing the Land",
+                "Primary Tag Details": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2) repeated or serious violations of the protection regime of the special protected area.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Forest Resource Crime",
+            "Tagging Details": [
+              {
+                "Summary": "Selling timber in a protected area without a certificate of origin",
+                "Tag Ref": "CC, Art. 24.6(1) an (2)",
+                "Law": "Criminal Code (as amended 2020)",
+                "Toc": "Article 24.6. Illegal logging",
+                "Primary Tag Details": "<p>1. Whoever harvests timber from a forest without a permit, or harvests, transports, sells, or purchases timber or timber products without a certificate of origin, shall be punished by a fine in the amount of four hundred and fifty to five thousand four hundred tugriks, or by community service for a period of two hundred and forty to seven hundred and twenty hours, or by restriction of travel rights for a period of one month to one year.</p>[...]<br></strong><strong><p>2. This crime is committed:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2.3. in forests of specially protected areas of the state;</p>[...]<br></strong><strong><p>by restriction of travel rights for a period of one to five years, or by imprisonment for a period of one to five years.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": [
+                  {
+                    "Penalty Unit Used": 1,
+                    "Penalty Applicable To": "Persons",
+                    "Penalty Unit": "Fine Unit, Mongolia",
+                    "Penalty Unit Min": 450,
+                    "Penalty Unit Max": 5400,
+                    "Penalty Unit Value": 2000,
+                    "Fine Min": 900000,
+                    "Fine Max": 10800000,
+                    "Fine Currency": "Tugrik-MNT",
+                    "Prison Term Min": 1,
+                    "Prison Term Max": 5,
+                    "Prison Term Unit": "years",
+                    "Other Details": "Restriction of travel rights for 1 - 5 years"
+                  }
+                ]
+              },
+              {
+                "Summary": "Purchasing timber in a protected area without a certificate of origin",
+                "Tag Ref": "CC, Art. 24.6(1) an (2)",
+                "Law": "Criminal Code (as amended 2020)",
+                "Toc": "Article 24.6. Illegal logging",
+                "Primary Tag Details": "<p>1. Whoever harvests timber from a forest without a permit, or harvests, transports, sells, or purchases timber or timber products without a certificate of origin, shall be punished by a fine in the amount of four hundred and fifty to five thousand four hundred tugriks, or by community service for a period of two hundred and forty to seven hundred and twenty hours, or by restriction of travel rights for a period of one month to one year.</p>[...]<br></strong><strong><p>2. This crime is committed:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">2.3. in forests of specially protected areas of the state;</p>[...]<br></strong><strong><p>by restriction of travel rights for a period of one to five years, or by imprisonment for a period of one to five years.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": [
+                  {
+                    "Penalty Unit Used": 1,
+                    "Penalty Applicable To": "Persons",
+                    "Penalty Unit": "Fine Unit, Mongolia",
+                    "Penalty Unit Min": 450,
+                    "Penalty Unit Max": 5400,
+                    "Penalty Unit Value": 2000,
+                    "Fine Min": 900000,
+                    "Fine Max": 10800000,
+                    "Fine Currency": "Tugrik-MNT",
+                    "Prison Term Min": 1,
+                    "Prison Term Max": 5,
+                    "Prison Term Unit": "years",
+                    "Other Details": "Restriction of travel rights for 1 - 5 years"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Protected Area Violation",
+            "Tagging Details": [
+              {
+                "Summary": "Violating protected area laws, administrative norms, standards, regimes and procedures",
+                "Tag Ref": "LoI Art. 7.17(1)",
+                "Law": "Law on Infringements ",
+                "Toc": "",
+                "Primary Tag Details": "<p style=\"margin-left: 40px;\">1. In special protected areas:</p><p style=\"margin-left: 80px;\">1.1. Violation of laws, administrative norms, standards, regimes and procedures;</p><p style=\"margin-left: 80px;\">1.2. A person shall be fined in the amount of three thousand units togrogs and a legal entity shall be fined in the amount of thirty thousand units togrogs for damages and compensation for activities not included in the management plan.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Carrying out activities prohibited in Special Protected Areas",
+                "Tag Ref": "LoI Art 7.17(2)",
+                "Law": "Law on Infringements ",
+                "Toc": "Article 7.17. Carrying out prohibited activities in special protected areas",
+                "Primary Tag Details": "<p style=\"margin-left: 40px;\">2. Carrying out activities prohibited by law in a specially protected area shall be punishable by a fine of 500 togrogs for a person or 5,000 togrogs for a legal person.</p><p><a class=\"level_tag_href\" href=\"#toc_level_1\" id=\"toc_level1_content_8\"><span class=\"toc_level toc_level1_class\"></span></a></p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": [
+                  {
+                    "Penalty Unit Used": 1,
+                    "Penalty Applicable To": "Persons",
+                    "Penalty Unit": "Fine Unit, Mongolia",
+                    "Penalty Unit Min": 500,
+                    "Penalty Unit Max": 500,
+                    "Penalty Unit Value": 2000,
+                    "Fine Min": 1000000,
+                    "Fine Max": 1000000,
+                    "Fine Currency": "Tugrik-MNT",
+                    "Prison Term Min": "",
+                    "Prison Term Max": "",
+                    "Prison Term Unit": "",
+                    "Other Details": ""
+                  }
+                ]
+              },
+              {
+                "Summary": "Unauthorized entry into a protected area",
+                "Tag Ref": "LoI Art. 8.1(1)",
+                "Law": "Law on Infringements ",
+                "Toc": "Article 8.1. Violation of the Land Law",
+                "Primary Tag Details": "<p style=\"margin-left: 40px;\">1. Unauthorized entry into a specially protected area, such as installing signs prohibiting access to other people's possession or use, or erecting a fence, shall be punishable by a fine of 25 units togrogs for a person or two hundred and fifty units togrogs for a legal person.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Installing signs prohibiting access to the Protected Area",
+                "Tag Ref": "LoI Art. 8.1(1)",
+                "Law": "Law on Infringements ",
+                "Toc": "Article 8.1. Violation of the Land Law",
+                "Primary Tag Details": "<p style=\"margin-left: 40px;\">1. Unauthorized entry into a specially protected area, such as installing signs prohibiting access to other people's possession or use, or erecting a fence, shall be punishable by a fine of 25 units togrogs for a person or two hundred and fifty units togrogs for a legal person.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Erecting a fence",
+                "Tag Ref": "LoI Art. 8.1(1)",
+                "Law": "Law on Infringements ",
+                "Toc": "Article 8.1. Violation of the Land Law",
+                "Primary Tag Details": "<p style=\"margin-left: 40px;\">1. Unauthorized entry into a specially protected area, such as installing signs prohibiting access to other people's possession or use, or erecting a fence, shall be punishable by a fine of 25 units togrogs for a person or two hundred and fifty units togrogs for a legal person.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Illegal entry into a protected area in connection with civil aviation activities",
+                "Tag Ref": "LoI Art. 14.8(5)",
+                "Law": "Law on Infringements ",
+                "Toc": "Article 14.8. Violation of the Civil Aviation Law",
+                "Primary Tag Details": "<p style=\"margin-left: 40px;\"></p><p style=\"margin-left: 40px;\">5. Illegal entry into a protected area in connection with civil aviation activities shall be punishable by a fine of 50 units togrogs.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Unauthorized Land Use",
+            "Tagging Details": [
+              {
+                "Summary": "Illegal assignment of land to another",
+                "Tag Ref": "SPA Law, Art. 40(1)(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 40. Termination of License for Land Utilization and Freeing the Land",
+                "Primary Tag Details": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) on the grounds provided in Article 39 of the Land Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Conducting prohibited activity",
+                "Tag Ref": "SPA Law, Art. 40(1)(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 40. Termination of License for Land Utilization and Freeing the Land",
+                "Primary Tag Details": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) on the grounds provided in Article 39 of the Land Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Conducting activities not authorized in the land use agreement",
+                "Tag Ref": "SPA Law, Art. 40(1)(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 40. Termination of License for Land Utilization and Freeing the Land",
+                "Primary Tag Details": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) on the grounds provided in Article 39 of the Land Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Conducting environmentally harmful activities",
+                "Tag Ref": "SPA Law, Art. 40(1)(1)",
+                "Law": "Special Protected Areas Law (as amended 2021)",
+                "Toc": "Article 40. Termination of License for Land Utilization and Freeing the Land",
+                "Primary Tag Details": "<p>1. The license for land utilization in the special protected area shall be terminated in the following events:</p>[...]<br></strong><strong><p style=\"margin-left: 40px;\">1) on the grounds provided in Article 39 of the Land Law;</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              },
+              {
+                "Summary": "Repeated violations of contract terms",
+                "Tag Ref": "Reg Land Man, Art. 6.1",
+                "Law": "Regulation on Temporary Land Management in Protected Areas",
+                "Toc": "Article 6. Liability",
+                "Primary Tag Details": "<p>6.1 Citizens, business entities, and organizations using land in special protected areas shall strictly fulfill their obligations specified in the agreement. Failure to comply with the contract will result in liability under applicable law, and, in the event of repeated violations causing significant environmental damage, the contract will be terminated.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": []
+              }
+            ]
+          },
+          {
+            "2nd Level Tag Category": "Wildlife Crime",
+            "Tagging Details": [
+              {
+                "Summary": "Hunting without a permit in a protected area",
+                "Tag Ref": "CC, Art. 24.5(1)",
+                "Law": "Criminal Code (as amended 2020)",
+                "Toc": "Article 24.5. Illegal hunting",
+                "Primary Tag Details": "<p>1. Anyone who hunts or captures animals without a permit in a specially protected area, or who hunts or captures rare animals without a permit, intentionally breeds, stores, sells, purchases, transports, exports to foreign countries, or collects stuffed animals, tissues, organs, or raw materials derived from them, shall be punished by a fine of five thousand four hundred to twenty-seven thousand tugriks, or restriction of travel rights for a period of one to five years, or imprisonment for a period of one to five years.</p>",
+                "Cross-Reference Tag Details": "",
+                "X-Ref": "",
+                "Penalties Details": [
+                  {
+                    "Penalty Unit Used": 1,
+                    "Penalty Applicable To": "Persons",
+                    "Penalty Unit": "Fine Unit, Mongolia",
+                    "Penalty Unit Min": 5400,
+                    "Penalty Unit Max": 27000,
+                    "Penalty Unit Value": 2000,
+                    "Fine Min": 10800000,
+                    "Fine Max": 54000000,
+                    "Fine Currency": "Tugrik-MNT",
+                    "Prison Term Min": 1,
+                    "Prison Term Max": 5,
+                    "Prison Term Unit": "years",
+                    "Other Details": "Restriction of travel rights for a period of one to five years"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
