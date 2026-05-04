@@ -137,6 +137,12 @@ The CyberTracker app intercepts `cybertrackerwiki.org/applink/` URLs, decodes
 the `x` parameter, fetches `webUpdateUrl`, and installs the package. Anything
 that hands a user a clickable URL works (chat, email, QR codes, NFC).
 
+For SMART Mobile, use the `applink-smart` prefix instead — the URL shape is
+`https://cybertrackerwiki.org/applink-smart/?x=<payload>`.
+
+Encoding the applink as a QR code also works — CyberTracker and SMART Mobile
+will read the QR code and install the package the same way.
+
 To package a demo locally, run [demos/build.py](demos/build.py); it zips
 every subdirectory of `demos/` into a sibling `<name>.zip`.
 
