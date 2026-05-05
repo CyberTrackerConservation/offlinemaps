@@ -15,7 +15,7 @@
             "name": "Local weather",
             "title": "wttr.in",
             "blocks": [
-              { "type": "web", "value": "https://wttr.in/<latitude>,<longitude>?0" }
+              { "type": "web", "url": "https://wttr.in/<latitude>,<longitude>?0" }
             ]
           }
         }

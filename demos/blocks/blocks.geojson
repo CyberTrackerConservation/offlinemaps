@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "featureId": "world", "name": "World" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-180.0, -90.0], [180.0, -90.0], [180.0, 90.0], [-180.0, 90.0], [-180.0, -90.0]
+        ]]
+      }
+    }
+  ]
+}

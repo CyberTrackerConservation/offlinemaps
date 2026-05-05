@@ -1,0 +1,9 @@
+[
+  {
+    "filename": "blocks.geojson",
+    "name": "Block Types",
+    "active": true,
+    "opacity": 0.0,
+    "lookup": true
+  }
+]

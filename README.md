@@ -452,7 +452,7 @@ Labels are short, human-readable strings. They are not identifiers.
 | Field    | Required | Notes |
 | -------- | -------- | ----- |
 | `type`   | yes      | constant `"body"` |
-| `format` | yes      | one of `text`, `html`, `markdown` |
+| `format` | yes      | one of `text`, `html` |
 | `value`  | yes      | the string content |
 | `label`  | no       | optional heading |
 
@@ -478,18 +478,18 @@ and `value`. The `label` on the block itself is **required**.
 
 ```json
 { "type": "web", "label": "More info",
-  "value": "https://wttr.in/<latitude>,<longitude>?0",
+  "url": "https://wttr.in/<latitude>,<longitude>?0",
   "orientation": "landscape" }
 ```
 
 | Field         | Required | Notes |
 | ------------- | -------- | ----- |
 | `type`        | yes      | constant `"web"` |
-| `value`       | yes      | absolute URL |
+| `url`         | yes      | absolute URL |
 | `label`       | no       | optional heading |
 | `orientation` | no       | `portrait` or `landscape`; hint to the embedding container |
 
-The runtime substitutes the tokens `<latitude>` and `<longitude>` in `value`
+The runtime substitutes the tokens `<latitude>` and `<longitude>` in `url`
 with the matched point before opening the URL.
 
 #### `image` — embedded image
@@ -508,14 +508,14 @@ with the matched point before opening the URL.
 
 ```json
 { "type": "link", "label": "Reference",
-  "link": "https://example.org/regulation",
+  "url": "https://example.org/regulation",
   "text": "View full regulation" }
 ```
 
 | Field   | Required | Notes |
 | ------- | -------- | ----- |
 | `type`  | yes      | constant `"link"` |
-| `link`  | yes      | link target URL |
+| `url`   | yes      | link target URL |
 | `text`  | yes      | visible link text |
 | `label` | no       | optional heading |
 
@@ -623,7 +623,7 @@ A minimal one-feature world weather package illustrates every moving part.
               },
               {
                 "type": "web",
-                "value": "https://wttr.in/<latitude>,<longitude>?0",
+                "url": "https://wttr.in/<latitude>,<longitude>?0",
                 "orientation": "portrait"
               }
             ]

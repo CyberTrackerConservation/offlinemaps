@@ -1,0 +1,217 @@
+{
+  "content": {
+    "id": "blocks-en",
+    "language": "en",
+    "defaultLocale": "en-US"
+  },
+  "datasets": [
+    {
+      "id": "block-gallery",
+      "filter": { "featureIds": ["world"] },
+      "rows": [
+        {
+          "path": ["Blocks"],
+          "view": {
+            "name": "body",
+            "title": "body block",
+            "subtitle": "Large text content",
+            "blocks": [
+              {
+                "type": "body",
+                "label": "Plain text",
+                "format": "text",
+                "value": "A body block carries the long-form text of a view. The format field selects how the value is rendered."
+              },
+              {
+                "type": "body",
+                "label": "HTML",
+                "format": "html",
+                "value": "<p>Body blocks may also carry <strong>HTML</strong> content for static offline pages.</p>"
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks"],
+          "view": {
+            "name": "attributes",
+            "title": "attributes block",
+            "subtitle": "Labelled list of label/value pairs",
+            "blocks": [
+              {
+                "type": "attributes",
+                "label": "Specifications",
+                "items": [
+                  { "label": "Type",     "format": "text", "value": "Demo block" },
+                  { "label": "Status",   "format": "text", "value": "Active" },
+                  { "label": "Coverage", "format": "text", "value": "Whole world" }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks"],
+          "view": {
+            "name": "web - weather",
+            "title": "web block",
+            "subtitle": "Embedded web view",
+            "blocks": [
+              {
+                "type": "web",
+                "label": "Local weather",
+                "url": "https://wttr.in/<latitude>,<longitude>?0",
+                "orientation": "portrait"
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks"],
+          "view": {
+            "name": "web - site",
+            "title": "web block",
+            "subtitle": "Embedded web view",
+            "blocks": [
+              {
+                "type": "web",
+                "label": "Web site",
+                "url": "https://en.wikipedia.org/wiki/Elephant",
+                "orientation": "landscape"
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks"],
+          "view": {
+            "name": "image",
+            "title": "image block",
+            "subtitle": "Embedded image",
+            "blocks": [
+              {
+                "type": "image",
+                "label": "SMART in action",
+                "source": "https://cybertrackerwiki.org/assets/smart/image225.png"
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks"],
+          "view": {
+            "name": "link",
+            "title": "link block",
+            "subtitle": "Clickable link",
+            "blocks": [
+              {
+                "type": "link",
+                "label": "Reference",
+                "url": "https://en.wikipedia.org/wiki/Elephant",
+                "text": "Elephant — Wikipedia"
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks", "notice"],
+          "view": {
+            "name": "all",
+            "title": "notice block — all tones",
+            "subtitle": "One block per tone, in order of emphasis",
+            "blocks": [
+              {
+                "type": "notice",
+                "label": "Note",
+                "tone": "note",
+                "text": "A note tone is informational and carries no urgency."
+              },
+              {
+                "type": "notice",
+                "label": "Important",
+                "tone": "important",
+                "text": "An important tone marks content the reader should not overlook."
+              },
+              {
+                "type": "notice",
+                "label": "Caution",
+                "tone": "caution",
+                "text": "A caution tone warns about a hazard, risk, or condition that may cause harm."
+              },
+              {
+                "type": "notice",
+                "label": "Restriction",
+                "tone": "restriction",
+                "text": "A restriction tone marks a prohibition or rule that must be followed."
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks", "notice"],
+          "view": {
+            "name": "note",
+            "title": "notice block — note",
+            "subtitle": "Lowest-emphasis tone",
+            "blocks": [
+              {
+                "type": "notice",
+                "label": "Note",
+                "tone": "note",
+                "text": "A note tone is informational and carries no urgency."
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks", "notice"],
+          "view": {
+            "name": "important",
+            "title": "notice block — important",
+            "subtitle": "Emphasised, but not a warning",
+            "blocks": [
+              {
+                "type": "notice",
+                "label": "Important",
+                "tone": "important",
+                "text": "An important tone marks content the reader should not overlook."
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks", "notice"],
+          "view": {
+            "name": "caution",
+            "title": "notice block — caution",
+            "subtitle": "Warns about a hazard or risk",
+            "blocks": [
+              {
+                "type": "notice",
+                "label": "Caution",
+                "tone": "caution",
+                "text": "A caution tone warns about a hazard, risk, or condition that may cause harm."
+              }
+            ]
+          }
+        },
+        {
+          "path": ["Blocks", "notice"],
+          "view": {
+            "name": "restriction",
+            "title": "notice block — restriction",
+            "subtitle": "Highest emphasis — a rule or prohibition",
+            "blocks": [
+              {
+                "type": "notice",
+                "label": "Restriction",
+                "tone": "restriction",
+                "text": "A restriction tone marks a prohibition or rule that must be followed."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
