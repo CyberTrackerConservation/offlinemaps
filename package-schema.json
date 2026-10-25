@@ -57,7 +57,7 @@
     "featureRef": {
       "type": "string",
       "minLength": 1,
-      "description": "GeoJSON feature.id value (coerced to string), or the wildcard \"*\" meaning every feature in the sibling GeoJSON."
+      "description": "A feature id from the sibling lookup geometry: properties.featureId in the GeoJSON, or the featureId column of the shapefile .dbf. The wildcard \"*\" means every feature."
     },
     "filter": {
       "type": "object",
@@ -70,7 +70,7 @@
         "featureIds": {
           "type": "array",
           "minItems": 1,
-          "description": "Feature ids from the sibling GeoJSON file (same basename as this package, .geojson extension). The sentinel [\"*\"] matches every feature.",
+          "description": "Feature ids from the sibling lookup geometry (same basename as this file: .shp bundle if present, otherwise .geojson). The sentinel [\"*\"] matches every feature.",
           "items": {
             "$ref": "#/$defs/featureRef"
           }
