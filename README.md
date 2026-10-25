@@ -50,20 +50,21 @@ A layer is a group of files sharing a basename. Common bundles:
 
 - Shapefile bundle: `layer1.shp`, `layer1.dbf`, `layer1.shx`, `layer1.prj`,
   `layer1.cpg`, `layer1.qmd`.
-- Lookup bundle: `layer1.geojson`, `layer1.json`, or `layer1.shp`,
-  `layer1.shx`, `layer1.dbf`, `layer1.json`.
+- Shapefile lookup bundle: `layer1.shp`, `layer1.shx`, `layer1.dbf`,
+  `layer1.prj`, `layer1.json`.
+- GeoJSON lookup bundle: `layer1.geojson`, `layer1.json`.
 
 For place lookup, the runtime locates companions by **basename + extension
 swap** in the same archive root:
 
-- `<basename>.shp` (+ `.shx`, `.dbf`, optional `.prj`) — lookup geometry,
-  used in preference when present (see §2.2).
-- `<basename>.geojson` — lookup geometry, used only when there is no
-  `<basename>.shp`.
+- Lookup geometry — one of:
+  - `<basename>.shp` (+ `.shx`, `.dbf`, optional `.prj`), or
+  - `<basename>.geojson`.
 - `<basename>.json` — renderable content.
 
-If the primary layer file is itself a GeoJSON or a shapefile, that same file
-may serve as both the display layer and the lookup geometry; the companion
+A lookup layer uses one geometry source, not both (see §2.2 for choosing).
+If both happen to be present the shapefile is used. A shapefile that is the
+primary display layer also serves as the lookup geometry; the companion
 content file is still `<basename>.json`.
 
 ### 1.3 `layers.json`
@@ -221,9 +222,8 @@ A layer participates in place lookup when its `layers.json` entry has:
 
 When `lookup` is `true`, the runtime expects:
 
-- Companion lookup geometry: `<basename>.shp` (with `.shx` and `.dbf`), or
-  `<basename>.geojson`. If both are present the shapefile is used and the
-  GeoJSON is never opened.
+- Companion lookup geometry: a `<basename>.shp` bundle (with `.shx` and
+  `.dbf`) **or** a `<basename>.geojson`.
 - `<basename>.json` — companion content file.
 
 If the geometry or the content file is missing, the lookup layer is
@@ -233,10 +233,29 @@ incomplete.
 
 The lookup geometry is the file the point-in-polygon test runs against. It
 produces a set of **matched feature ids**, which the content file's
-`filter.featureIds` (§2.5) is then evaluated against. Two geometry formats
-are supported; the join key is the same string in both.
+`filter.featureIds` (§2.5) is then evaluated against. A layer takes its
+geometry from one of two sources:
 
-#### GeoJSON lookup geometry
+| Source        | Drawn on the map | Choose it when |
+| ------------- | ---------------- | -------------- |
+| **Shapefile** | Yes: the same file is the display layer and the lookup geometry, styled with `symbol` (§1.6). | The polygons should be visible. |
+| **GeoJSON**   | No: GeoJSON polygons are not rendered. | The geometry only exists to drive lookup, such as a world or hemisphere polygon. |
+
+The content file is written the same way for either source. There is no need
+to ship both; if both are present the shapefile is used.
+
+#### Scenario A: shapefile lookup geometry
+
+The shapefile must have an attribute field named **`featureId`** (a `fid`
+field is accepted if there is no `featureId`). Field names are matched
+case-insensitively. Text fields are recommended; numeric fields work and are
+matched as their string form, so `12` is the id `"12"`.
+
+The runtime reads `.shp`, `.shx` and `.dbf`. A `.prj` is honored if
+present; without one the shapefile is assumed to be WGS84. Only polygon
+shapefiles can match.
+
+#### Scenario B: GeoJSON lookup geometry
 
 Each feature used for matching must carry a string property named
 **`featureId`** inside `properties`:
@@ -256,96 +275,16 @@ Each feature used for matching must carry a string property named
 ```
 
 The content file matches against `properties.featureId`. The property name
-is matched case-insensitively (`FEATUREID`, as a shapefile conversion often
-spells it, works). A numeric value is coerced to its string form, so `12`
-matches `"12"`. If no `featureId` property exists the runtime falls back to a
-property named `fid`, and only then to the standard top-level GeoJSON `id`,
-which is a legacy path: it is a record number and should not be relied on.
+is matched case-insensitively (a `fid` property is accepted if there is no
+`featureId`), and a numeric value is matched as its string form, so `12` is
+the id `"12"`. The standard top-level GeoJSON `id` field is **not** used.
 
 `featureId` is an opaque string. Conventional namespacing (`country:MN`,
 `region:MN-073`, `world`) keeps ids legible across packages but is not
 required.
 
 Only `Polygon` and `MultiPolygon` geometries are tested; other geometry
-types never match. The whole file is parsed on every lookup, so GeoJSON is
-suited to small layers.
-
-#### Shapefile lookup geometry
-
-A lookup layer may ship its geometry as a shapefile bundle instead of, or as
-well as, a GeoJSON. When `<basename>.shp` exists the runtime uses it and the
-GeoJSON is ignored. The shapefile is preferred because it is binary and
-self-indexing: only records whose bounding box contains the point are read,
-so large layers stay fast.
-
-The runtime requires `.shp`, `.shx` and `.dbf`. `.prj` is optional but
-honoured. `.cpg`, `.sbn`, `.sbx`, `.qix` and `.qmd` are ignored.
-
-A shapefile has no intrinsic feature id. The only built-in identity is a
-record's position, which changes whenever the file is edited or re-exported,
-so it is not usable as a stable key. The join key is therefore an attribute
-column in the `.dbf` named **`featureId`**, or failing that `fid`, the same
-names and order the GeoJSON reader uses. Names are matched
-case-insensitively, because many shapefile writers uppercase field names;
-dBASE limits names to 10 characters, which both fit. If neither column is
-present the layer logs an error and yields no matches — it does **not** fall
-back to the GeoJSON.
-
-How a lookup at `(x, y)` produces the matched feature ids:
-
-1. **Project the point.** If `<basename>.prj` names a coordinate system
-   other than WGS84, the WGS84 point is projected into it. Without a `.prj`
-   the shapefile is assumed to hold WGS84 longitude/latitude.
-2. **Check the file.** The `.shp` header shape type must be Polygon (5),
-   PolygonZ (15) or PolygonM (25), and the header bounding box must contain
-   the point. Otherwise there are no matches.
-3. **Find the key column.** Walk the `.dbf` field descriptors to locate
-   `featureId` and its byte offset within a row.
-4. **Scan records.** For each record index `i`:
-   - Use `.shx` entry `i` to find record `i` in `.shp`.
-   - Skip it unless its shape type is a polygon variant and its record
-     bounding box contains the point. This is the step that avoids reading
-     most of the file.
-   - Skip it if `.dbf` row `i` carries the deletion flag.
-   - Read `featureId` from `.dbf` row `i` and trim surrounding whitespace
-     (dBASE pads fields to a fixed width). A numeric (`N` or `F`) field is
-     normalized to the same string a JSON number would give, so `12`,
-     `12.0` and `"12"` all match. Skip it if that id has already matched:
-     an id only needs to match once.
-   - Decode the record's parts into rings and run an even-odd
-     point-in-polygon test across all rings together. Z and M values are
-     ignored.
-   - On a hit, add the `featureId` to the matched set.
-5. **Evaluate content.** The matched set is tested against each dataset's
-   `filter.featureIds` exactly as for GeoJSON.
-
-Row `i` of the `.dbf` is paired with record `i` of the `.shp` purely by
-position. The two files must have the same record count and order; this is
-guaranteed by any standard shapefile writer but is broken by editing one file
-without the other.
-
-Even-odd testing means holes are handled by ring nesting rather than winding
-order: a point inside an inner ring is outside the feature regardless of ring
-direction. A multipart record (several outer rings) matches if the point lies
-in any part.
-
-#### Keeping the two formats equivalent
-
-The content file is written once and must work against whichever geometry
-the runtime picks. When a layer ships both a `.shp` and a `.geojson`:
-
-- Every feature must carry the same value in `properties.featureId`
-  (GeoJSON) and the `featureId` column (`.dbf`).
-- Prefer a **character** field in the `.dbf` and a **string** property in
-  the GeoJSON. Numeric ids are accepted and normalized identically in both
-  readers, but strings avoid any formatting surprises.
-- Keep ids ASCII, or make sure the `.dbf` is UTF-8 encoded. The runtime
-  decodes the column as UTF-8 regardless of any `.cpg`.
-- Avoid leading or trailing whitespace in ids. The `.dbf` value is trimmed;
-  the GeoJSON value is used verbatim.
-- Converting with `ogr2ogr` carries attribute columns in both directions, so
-  a `featureId` column round-trips. The top-level GeoJSON `id` and OGR's
-  `fid` are record numbers and are not used by the runtime.
+types never match.
 
 ### 2.3 Content JSON structure
 
@@ -640,8 +579,7 @@ A typical lookup against an active package proceeds as:
 2. For each such layer, locate the lookup geometry and `<basename>.json`.
    The geometry is `<basename>.shp` if present, otherwise
    `<basename>.geojson`.
-3. Run the point-in-polygon test against the geometry (§2.2). For a
-   shapefile only records whose bounding box contains the point are read.
+3. Run the point-in-polygon test against the geometry (§2.2).
 4. Collect each selected feature's id: `properties.featureId` for GeoJSON,
    or the `featureId` column of the `.dbf` row for a shapefile.
 5. Load the companion content JSON.
