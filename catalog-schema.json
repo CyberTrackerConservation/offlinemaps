@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/catalog-schema.json",
+  "title": "Translation catalog",
+  "description": "Schema for an optional translation catalog strings.<locale>.json at the root of a map package, covering all of its lookup content files. Keys are the exact original display strings; values are their translations. An empty value means untranslated and the original string is shown.",
+  "type": "object",
+  "propertyNames": {
+    "minLength": 1
+  },
+  "additionalProperties": {
+    "type": "string"
+  }
+}

@@ -16,8 +16,9 @@ The format has two parts:
 The content side is **render-first**: each row carries a `view` describing
 what to draw, so consumers do not need hard-coded field ordering.
 
-The schema is in [package-schema.json](package-schema.json) (JSON Schema draft
-2020-12).
+The content schema is in [package-schema.json](package-schema.json) and the
+translation catalog schema in [catalog-schema.json](catalog-schema.json)
+(JSON Schema draft 2020-12).
 
 > **Status.** This document describes the target format. Some files in
 > [demos/](demos/) and [legal_atlas/](legal_atlas/) still use the older top-level
@@ -61,6 +62,8 @@ swap** in the same archive root:
   - `<basename>.shp` (+ `.shx`, `.dbf`, optional `.prj`), or
   - `<basename>.geojson`.
 - `<basename>.json` — renderable content.
+- `strings.<locale>.json` — optional translation catalog for the package's
+  lookup content, one per language, at the archive root (see §2.10).
 
 A lookup layer uses one geometry source, not both (see §2.2 for choosing).
 If both happen to be present the shapefile is used. A shapefile that is the
@@ -115,7 +118,7 @@ content file.
 | `id`       | string | Stable package identifier. The runtime uses it for deduplication. |
 | `name`     | string | Human-readable package name. |
 | `version`  | string | Package version. Versions are compared **lexically** — choose values whose string ordering gives the intended semantic ordering (e.g. ISO-style `2026.04.21`, or zero-padded numeric). |
-| `language` | string | Optional language identifier such as `en` or `mn`. Used to disambiguate localized packages with the same `id`. |
+| `language` | string | Optional language identifier such as `en` or `mn`: the language the package's own strings are written in. Other languages ship inside the same package as translation catalogs (see §2.10), so one package serves every language. |
 
 ### 1.5 Distribution — building an applink URL
 
@@ -225,6 +228,8 @@ When `lookup` is `true`, the runtime expects:
 - Companion lookup geometry: a `<basename>.shp` bundle (with `.shx` and
   `.dbf`) **or** a `<basename>.geojson`.
 - `<basename>.json` — companion content file.
+- `strings.<locale>.json` at the archive root — optional translation catalog
+  shared by every lookup layer in the package (see §2.10). Never required.
 
 If the geometry or the content file is missing, the lookup layer is
 incomplete.
@@ -433,8 +438,10 @@ The default is **no filter**:
 
 Rows are the renderable items inside a dataset. Each row has:
 
-- `path` — full localized browse path shown in the UI (array of strings, in
-  parent-to-child order).
+- `path` — full browse path shown in the UI (array of strings, in
+  parent-to-child order). The path strings also define the navigation
+  hierarchy: rows whose path elements are equal share a node. Translations
+  (§2.10) change the labels shown, never the hierarchy.
 - `view` — renderable content (see §2.7).
 
 Optionally, a row may carry its own `filter` to override the dataset-level
@@ -582,10 +589,152 @@ A typical lookup against an active package proceeds as:
 3. Run the point-in-polygon test against the geometry (§2.2).
 4. Collect each selected feature's id: `properties.featureId` for GeoJSON,
    or the `featureId` column of the `.dbf` row for a shapefile.
-5. Load the companion content JSON.
+5. Load the companion content JSON and, if present, the translation
+   catalog(s) for the current language (§2.10).
 6. Evaluate every dataset's `filter.featureIds` against the selected ids.
 7. If the runtime has an active date/time filter, evaluate `filter.when`.
-8. Render the matching rows in declaration order.
+8. Render the matching rows in declaration order, translating display
+   strings through the catalog(s).
+
+### 2.10 Translations
+
+A content file is written once, in one language, and stays the single source
+of truth for structure and logic. Other languages are supplied as
+**translation catalogs**: flat JSON files that map each original display
+string to its translation. The original string is both the lookup key and the
+fallback text, so content files carry no ids, hashes or per-language copies.
+
+#### Catalog files
+
+A package carries one catalog per locale, `strings.<locale>.json`, in the
+archive root. It covers every content file in the package:
+
+- `regions.json`, `zones.json` — canonical content, including all logic and
+  the default strings.
+- `strings.fr.json` — French.
+- `strings.fr-CA.json` — Canadian French.
+- `strings.mn.json` — Mongolian.
+
+`<locale>` is a BCP 47 language tag: a lowercase language subtag, optionally
+followed by `-` and an uppercase region subtag (`en`, `fr`, `fr-CA`, `mn`,
+`pt-BR`). Filenames are matched exactly, so use this casing.
+
+No catalog is needed for the language the canonical files are written in:
+when the content is English there is no `strings.en.json`. Catalogs apply to
+lookup content only; `layers.json` and `package.json` are not translated.
+
+`strings` is a reserved basename. The runtime never treats
+`strings.<locale>.json` as a content file, and a lookup layer must not be
+named `strings`.
+
+#### Catalog format
+
+A catalog is a single JSON object. Keys are original strings and values are
+their translations ([catalog-schema.json](catalog-schema.json)):
+
+```json
+{
+  "Hunting": "Chasse",
+  "Restrictions": "Restrictions",
+  "Hunting restrictions": "Restrictions de chasse",
+  "Hunting is prohibited in this zone.": "La chasse est interdite dans cette zone."
+}
+```
+
+- Keys are the exact original strings: case-sensitive, untrimmed, and
+  including any HTML markup in a `body` value. Nothing is normalized.
+- Values are strings. An empty value is treated as missing.
+- A string that appears in several places, or in several content files,
+  such as the block label `About` on every row, needs one entry and is
+  translated everywhere. One string therefore has one translation across the
+  whole package.
+- Keys that do not occur in the content are ignored.
+- A catalog carries no structure or logic. It cannot add, remove, reorder or
+  reconfigure content.
+
+#### Lookup and fallback
+
+For the current locale `L`, the runtime:
+
+1. Loads `strings.<L>.json` if present.
+2. If `L` has a region subtag, also loads `strings.<language>.json`
+   (`fr-CA` → `fr`).
+3. Shows, for each translatable string, the first non-empty value found in
+   those catalogs in that order; otherwise the original string.
+
+Missing catalogs, missing keys, empty values and malformed catalog files never
+stop a package from loading or a lookup from succeeding. A malformed catalog is
+logged and skipped. Catalogs are read once per lookup and shared by all the
+package's layers, so changing the app language takes effect on the next lookup
+without reinstalling the package.
+
+#### Translatable strings
+
+| Where            | Translated |
+| ---------------- | ---------- |
+| row              | each element of `path` (display label only, see below) |
+| view             | `name`, `title`, `subtitle` |
+| every block      | `label` |
+| `body` block     | `value`, as one string, whether `text` or `html` |
+| `attributes`     | each item's `label`, and its `value` when it is a string |
+| `link` block     | `text` |
+| `notice` block   | `text` |
+
+Never translated: `content.id`, `content.language`, dataset ids,
+`filter` (feature ids and `when`), `type`, `format`, `tone`, `orientation`,
+`url`, `source`, numbers, booleans, JSON keys, and anything in `layers.json`
+or `package.json`. Translations affect
+presentation only. Filtering, feature matching and dataset evaluation run on
+the canonical content.
+
+#### Preparing a catalog for translation
+
+[tools/extract_strings.py](tools/extract_strings.py) lists every translatable
+string in a package and writes the catalog to hand to a translator:
+
+```bash
+python3 tools/extract_strings.py --locale mn package.zip
+python3 tools/extract_strings.py --locale mn --merge strings.mn.json package.zip
+```
+
+The first form writes `strings.mn.json` with every source string as a key and
+an empty value. The second keeps the translations already present in an
+existing catalog, adds the source strings that are new, drops the ones that no
+longer occur, and reports the counts, so the translator only sees what is still
+missing. Strings without letters, such as `"900"`, are omitted. A catalog with
+empty values is valid to ship: those strings show the original text.
+
+#### Changing the canonical text
+
+The original string is the key, so editing a string in a content file
+disconnects it from its translation: the old entry no longer matches anything
+and the new text has no entry. Nothing fails. The app shows the new text in the
+canonical language and keeps translating everything else, so a correction to
+the content never has to wait for translation. To catch the catalog up:
+
+1. Edit the content file and rebuild the package.
+2. Run the extraction tool with `--merge` and the current catalog. Unchanged
+   strings keep their translations. An edited string appears as a new key: if
+   a dropped entry closely resembles it (a typo fix or a small rewording, 85%
+   similar by default, `--fuzzy` adjusts), its translation is carried over and
+   the old/new pair is listed in the report for confirmation; otherwise the
+   value is empty and the old entry is listed as dropped.
+3. Have the translator fill the empty values and confirm the carried-over
+   pairs.
+4. Ship the returned file as `strings.<locale>.json` in the next package
+   version.
+
+A rewrite of the canonical text therefore costs one re-translation, while a
+small correction only costs a confirmation. Batch canonical edits ahead of a
+translation round.
+
+#### Navigation hierarchy
+
+The canonical `path` strings define navigation identity. Rows are grouped into
+nodes by their original path elements, and translations are applied only to
+the labels shown. Two different original nodes stay distinct even when their
+translated labels are identical, and a partial catalog never splits or merges
+nodes.
 
 ---
 
@@ -673,6 +822,20 @@ A minimal one-feature world weather package illustrates every moving part.
       ]
     }
   ]
+}
+```
+
+### 3.5 `strings.fr.json`
+
+An optional French catalog for the package. Everything it does not mention
+(here the `subtitle` `wttr.in`) is shown in English:
+
+```json
+{
+  "Weather": "Météo",
+  "Local weather": "Météo locale",
+  "Note": "Remarque",
+  "Open the embedded view for live conditions at the tapped location.": "Ouvrez la vue intégrée pour les conditions actuelles à l'endroit touché."
 }
 ```
 
