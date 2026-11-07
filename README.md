@@ -20,12 +20,6 @@ The content schema is in [package-schema.json](package-schema.json) and the
 translation catalog schema in [catalog-schema.json](catalog-schema.json)
 (JSON Schema draft 2020-12).
 
-> **Status.** This document describes the target format. Some files in
-> [demos/](demos/) and [legal_atlas/](legal_atlas/) still use the older top-level
-> wrapper key `package` (instead of `content`) and the older join key
-> `feature.id` (instead of `feature.properties.featureId`). They will be
-> migrated; the spec below is the canonical target.
-
 ---
 
 ## 1. Map packages
