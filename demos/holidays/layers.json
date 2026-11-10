@@ -1,7 +1,7 @@
 [
   {
     "filename": "holidays.geojson",
-    "name": "Country Holidays",
+    "names": { "default": "Country Holidays", "mn": "Улсын баярын өдрүүд" },
     "active": true,
     "opacity": 0.3,
     "lookup": true

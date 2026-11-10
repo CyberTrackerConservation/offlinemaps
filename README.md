@@ -73,7 +73,7 @@ drawn:
 [
   {
     "filename": "weather.geojson",
-    "name": "Weather",
+    "names": { "default": "Weather", "mn": "Цаг агаар" },
     "active": true,
     "opacity": 0.0,
     "lookup": true
@@ -84,11 +84,19 @@ drawn:
 | Field      | Type    | Purpose |
 | ---------- | ------- | ------- |
 | `filename` | string  | A filename belonging to the layer — typically the primary display file (`.geojson`, `.shp`, `.mbtiles`, `.tif`, `.kml`, etc.). The runtime takes the **basename** to locate companion lookup files. |
-| `name`     | string  | Human-readable layer name shown in the UI. |
+| `name`     | string  | Human-readable layer name shown in the UI. Not needed when `names` is present. |
+| `names`    | object  | Layer name per language, keyed by BCP 47 tag (`en`, `fr`, `pt-BR`), with an optional `default` entry. Use either `name` or `names`. |
 | `active`   | boolean | Whether the layer is visible when the package is first loaded. |
 | `opacity`  | number  | Optional layer opacity from `0.0` (transparent) to `1.0` (opaque). |
 | `lookup`   | boolean | Whether the layer participates in place lookup (see §2). |
 | `symbol`   | object  | Optional symbol description for vector layers (see §1.6). Typically irrelevant for KML and raster formats. |
+
+The app shows the `names` entry for its current language. When there is no
+exact match it takes the closest language (`pt-PT` finds `pt-BR`, `fr-CA`
+finds `fr`), then `default`, then the first entry. Keys are matched
+case-insensitively. If both `name` and `names` are given, `name` is only used
+when `names` is empty. Changing the app language updates layer names without
+reinstalling the package.
 
 When `lookup` is `true`, the runtime expects sibling lookup geometry
 (`<basename>.shp` bundle or `<basename>.geojson`) and a `<basename>.json`
@@ -615,7 +623,8 @@ followed by `-` and an uppercase region subtag (`en`, `fr`, `fr-CA`, `mn`,
 
 No catalog is needed for the language the canonical files are written in:
 when the content is English there is no `strings.en.json`. Catalogs apply to
-lookup content only; `layers.json` and `package.json` are not translated.
+lookup content only and do not translate `layers.json` or `package.json`;
+layer names are translated with the `names` map in `layers.json` (see §1.3).
 
 `strings` is a reserved basename. The runtime never treats
 `strings.<locale>.json` as a content file, and a lookup layer must not be
@@ -677,7 +686,8 @@ without reinstalling the package.
 Never translated: `content.id`, `content.language`, dataset ids,
 `filter` (feature ids and `when`), `type`, `format`, `tone`, `orientation`,
 `url`, `source`, numbers, booleans, JSON keys, and anything in `layers.json`
-or `package.json`. Translations affect
+or `package.json` (layer names use the `names` map in `layers.json` instead,
+see §1.3). Translations affect
 presentation only. Filtering, feature matching and dataset evaluation run on
 the canonical content.
 
@@ -753,7 +763,7 @@ A minimal one-feature world weather package illustrates every moving part.
 [
   {
     "filename": "weather.geojson",
-    "name": "Weather",
+    "names": { "default": "Weather", "mn": "Цаг агаар" },
     "active": true,
     "opacity": 0.0,
     "lookup": true
